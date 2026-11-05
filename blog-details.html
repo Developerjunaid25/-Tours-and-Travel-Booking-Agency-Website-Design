@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Title -->
+    <title>Travel & Tour Booking </title>
+
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/venobox.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/dataTables.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/carouselTicker.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <div class="preloader overflow-hidden">
+        <div class="site-name"><span>JB</span></div>
+        <div class="preloader-gutters">
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-drag">
+            <span>DRAG</span>
+        </div>
+    </div>
+
+    <!-- header-area-start -->
+    <header class="header  sticky-active">
+        <div class="primary-header">
+            <div class="container-fluid header-container">
+                <div class="primary-header-inner">
+                    <div class="header-left-wrap">
+                        <div class="header-logo d-lg-block">
+                            <a href="index.html">
+                                <img src="assets/img/logo/logo-1.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="header-menu-wrap">
+                            <div class="mobile-menu-items">
+                                <ul>
+                                    <li >
+                                        <a href="index.html">Home</a>
+                                        
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Pages</a>
+                                        <ul>
+                                            <li><a href="about.html">About us</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="destination-2.html">Destination</a>
+                                        
+                                    </li>
+                                    <li >
+                                        <a href="package-3.html">Package</a>
+                                        
+                                    </li>
+
+                                    <li>
+                                        <a href="blog-details.html">Blog</a>
+                                        
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.header-menu-wrap -->
+                    <div class="header-right-wrap">
+                        <button class="dl-search-icon search-icon">
+                            <i class="fa-regular fa-magnifying-glass"></i>
+                        </button>
+                        <a href="cart.html" class="shop-icon">
+                            <i class="fa-regular fa-cart-shopping"></i>
+                        </a>
+                        <div class="header-btn-wrap ms-3">
+                            <a href="contact.html" class="cp-primary-btn small-btn white-btn">
+                                <span class="inner-btn">Contact Us</span>
+                                <span class="icon"><i class="fa-regular fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div class="header-right-item d-lg-none d-md-block">
+                            <a href="javascript:void(0)" class="mobile-side-menu-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <!-- /.header-right -->
+                    </div>
+                </div>
+                <!-- /.primary-header-inner -->
+            </div>
+        </div>
+    </header>
+    <!-- /.Main Header -->
+
+    <div id="popup-search-box">
+        <div class="box-inner-wrap d-flex align-items-center">
+            <form id="form" action="#" method="get" role="search">
+                <input id="popup-search" type="text" name="s" placeholder="Type keywords here...">
+            </form>
+            <div class="search-close"><i class="fa-sharp fa-regular fa-xmark"></i></div>
+        </div>
+    </div>
+    <!-- /#popup-search-box -->
+
+    <div id="sidebar-area" class="sidebar-area">
+        <button class="sidebar-trigger close">
+            <svg class="sidebar-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" width="16px" height="12.7px" viewBox="0 0 16 12.7"
+                style="enable-background: new 0 0 16 12.7" xml:space="preserve">
+                <g>
+                    <rect x="0" y="5.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.1569 7.5208)" width="16"
+                        height="2"></rect>
+                    <rect x="0" y="5.4" transform="matrix(0.7071 0.7071 -0.7071 0.7071 6.8431 -3.7929)" width="16"
+                        height="2"></rect>
+                </g>
+            </svg>
+        </button>
+        <div class="side-menu-content">
+            <div class="side-menu-logo">
+                <a class="dark-img" href="index.html"><img src="assets/img/logo/logo-2.png" alt="logo"></a>
+            </div>
+            <div class="side-menu-wrap"></div>
+            <div class="side-menu-about">
+                <div class="side-menu-header">
+                    <h3>About Us</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                <a href="about.html" class="cp-primary-btn">Contact Us <span class="icon"><i
+                            class="fa-regular fa-arrow-right"></i></span></a>
+            </div>
+            <div class="side-menu-contact">
+                <div class="side-menu-header">
+                    <h3>Contact Us</h3>
+                </div>
+                <ul class="side-menu-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Valentin, Street Road 24, New York, </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+000123456789">+000 123 (456) 789</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope-open-text"></i>
+                        <a href="mailto:tripzo@gmail.com">tripzo@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="side-menu-social">
+                <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="g-plus"><a href="#"><i class="fab fa-fab fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--/.sidebar-area-->
+
+    <div class="mobile-side-menu">
+        <div class="side-menu-content">
+            <div class="side-menu-head">
+                <a href="index.html"><img src="assets/img/logo/logo-2.png" alt="logo"></a>
+                <button class="mobile-side-menu-close"><i class="fa-regular fa-xmark"></i></button>
+            </div>
+            <div class="side-menu-wrap"></div>
+            <div class="side-menu-contact">
+                <div class="side-menu-header">
+                    <h3>Contact Us</h3>
+                </div>
+                <ul class="side-menu-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Valentin, Street Road 24, New York, </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+000123456789">+000 123 (456) 789</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope-open-text"></i>
+                        <a href="mailto:tripzo@gmail.com">tripzo@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="side-menu-social">
+                <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="g-plus"><a href="#"><i class="fab fa-fab fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.mobile-side-menu -->
+    <div class="mobile-side-menu-overlay"></div>
+
+    <div class="page-wrapper">
+
+        <section class="breadcum-section">
+            <div class="bg-img" data-background="assets/img/images/breadcum.jpg"></div>
+            <div class="container-fluid">
+                <div class="breadcum-content">
+                    <h1 class="title" data-text-animation="fade-in-bottom-line" data-split="line" data-duration="1"
+                        data-stagger="0.2">
+                        Blog Details
+                    </h1>
+                    <h2 class="sub-title">
+                        <a class="home" href="index.html">Home</a>
+                        -
+                        <a class="inner-page" href="blog-details.html">Blog Details</a>
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <!-- ./ breadcum-section -->
+
+        <section class="blog-section blog-details-section pt-130 pb-130 fade-wrapper">
+            <div class="container">
+                <div class="row gutter-gap-40-y">
+                    <div class="col-xl-12">
+                        <div class="blog-details-img">
+                            <img src="assets/img/blog/blog-details-img.jpg" alt="blog">
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-8 col-md-12">
+                        <div class="blog-details-wrap">
+                            <div class="post-author-wrap">
+                                <img src="assets/img/blog/author-1.png" alt="">
+                                <ul>
+                                    <li><span>Author :</span></li>
+                                    <li>David Lynch</li>
+                                </ul>
+                                <ul>
+                                    <li><span>Published on :</span></li>
+                                    <li>August 15, 2026</li>
+                                </ul>
+                                <ul>
+                                    <li><span>Read</span></li>
+                                    <li>5 Min</li>
+                                </ul>
+                            </div>
+                            <div class="blog-details-content mt-40">
+                                <h2 class="details-title mb-24">
+                                    Your guide to creating memorable travel <br> Adventures worldwide
+                                </h2>
+                                <p class="desc mb-40">
+                                    Travel is more than just visiting new places — it is about creating meaningful
+                                    experiences, discovering different cultures, and building memories that last a
+                                    lifetime. Our comprehensive travel guides help you explore the world's most
+                                    beautiful destinations with confidence, offering expert recommendations, practical
+                                    tips, and inspiring ideas for every type of traveler.
+
+                                </p>
+                                <p class="desc mb-40">
+                                    From breathtaking natural landscapes and historic landmarks to local traditions,
+                                    hidden gems, and unforgettable activities, we provide valuable insights to make
+                                    every journey extraordinary. Whether you are planning a relaxing beach escape, an
+                                    adventurous mountain expedition, a luxury vacation, or a family-friendly holiday,
+                                    our expert guidance helps you discover the perfect experience.
+
+                                </p>
+                                <p class="desc">
+                                    Explore destination highlights, travel planning advice, must-visit attractions,
+                                    local experiences, and smart travel tips designed to make your adventures smoother
+                                    and more enjoyable. With the right inspiration and preparation, every trip can
+                                    become a collection of unforgettable moments shared across the world.
+
+                                </p>
+                                <h3 class="details-title-2 mt-48 mb-20">Travel planning</h3>
+                                <p class="desc mb-40">
+                                    Travel is more than just visiting new places — it is about creating meaningful
+                                    experiences, discovering different cultures, and building memories that last a
+                                    lifetime. Our comprehensive travel guides help you explore the world's most
+                                    beautiful destinations with confidence, offering expert recommendations, practical
+                                    tips, and inspiring ideas for every type of traveler.
+                                </p>
+                                <div class="desc">
+                                    From breathtaking natural landscapes and historic landmarks to local traditions,
+                                    hidden gems, and unforgettable activities, we provide valuable insights to make
+                                    every journey extraordinary.
+                                </div>
+                                <div class="details-img-wrap mt-48 mb-48">
+                                    <div class="row gy-4 gutter-gap-40-x">
+                                        <div class="col-lg-6">
+                                            <div class="image">
+                                                <img src="assets/img/blog/blog-details-img-2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="image">
+                                                <img src="assets/img/blog/blog-details-img-3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="details-title-2 mt-48">Adventure travel ideas</h3>
+                                <p class="desc mb-40">
+                                    Travel is more than just visiting new places — it is about creating meaningful
+                                    experiences, discovering different cultures, and building memories that last a
+                                    lifetime. Our comprehensive travel guides help you explore the world's most
+                                    beautiful destinations with confidence, offering expert recommendations, practical
+                                    tips, and inspiring ideas for every type of traveler.
+                                </p>
+                                <div class="desc">
+                                    From breathtaking natural landscapes and historic landmarks to local traditions,
+                                    hidden gems, and unforgettable activities, we provide valuable insights to make
+                                    every journey extraordinary.
+                                </div>
+                                <blockquote>
+                                    <div class="icon"><img src="assets/img/icon/quate-icon-4.png" alt="quote">
+                                    </div>
+                                    <div class="content">
+                                        <p>
+                                            "Explore breathtaking destinations around <br>
+                                            the world with our detailed travel guides, expert <br> insights, and
+                                            inspiring
+                                            stories created"
+                                        </p>
+                                        <div class="author">
+                                            <h3 class="name">Harrison Blake Turner</h3>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <p class="desc mb-40">
+                                    As technology continues to evolve, data-driven farming will become even more
+                                    advanced. Integration of AI, machine learning, and automation will further enhance
+                                    decision-making, making agriculture more precise, efficient, and sustainable.
+                                </p>
+                                <h3 class="details-title-2">Detailed Travel Guides</h3>
+                                <p class="desc mb-32">
+                                    Welcome to Niagara Falls! Begin your unforgettable journey with a comfortable
+                                    arrival and explore the beauty of this world-famous destination.
+                                </p>
+                                <ul class="list">
+                                    <li><i class="fa-solid fa-circle"></i>Arrival at Niagara Falls and hotel check-in
+                                    </li>
+                                    <li><i class="fa-solid fa-circle"></i>Welcome assistance and travel briefing</li>
+                                    <li><i class="fa-solid fa-circle"></i>Visit the iconic Niagara Falls viewpoints
+                                    </li>
+                                    <li><i class="fa-solid fa-circle"></i> Explore Table Rock Centre</li>
+                                    <li><i class="fa-solid fa-circle"></i> Enjoy breathtaking panoramic views of
+                                        Horseshoe Falls</li>
+                                </ul>
+                            </div>
+                            <div class="tags blog-tags">
+                                <div class="tag-left">
+                                    <h3 class="tag-title">Related Tags :</h3>
+                                    <ul class="tag-list">
+                                        <li><a href="#">Travels</a></li>
+                                        <li><a href="#">Adventure</a></li>
+                                        <li><a href="#">Explore</a></li>
+                                    </ul>
+                                </div>
+                                <div class="blog-details-social-wrap">
+                                    <h3 class="title">
+                                        Share:
+                                    </h3>
+                                    <ul class="social-list">
+                                        <li class="facebook">
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="pinterest">
+                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                        </li>
+                                        <li class="twitter">
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="instagram">
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="blog-details-quate">
+                                <div class="image">
+                                    <img src="assets/img/blog/quate-img.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3 class="name">
+                                        David Beckham
+                                    </h3>
+                                    <p class="desc mb-25">
+                                        Data in agriculture comes from multiple sources such as soil sensors, weather
+                                        stations, drones, and satellite imagery
+                                    </p>
+                                    <ul class="social-list">
+                                        <li class="facebook">
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="pinterest">
+                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                        </li>
+                                        <li class="twitter">
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="instagram">
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sidebar Widgets -->
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="sidebar-widget-wrapper mt-90">
+                            <div class="sidebar-widget">
+                                <h3 class="widget-title">Search</h3>
+                                <div class="search-box">
+                                    <form action="https://tripzo.geekslabthemes.com/contact.php" class="search-form">
+                                        <button class="search-btn" type="button">
+                                            <i class="fa-regular fa-magnifying-glass"></i>
+                                        </button>
+                                        <input type="text" class="form-control" placeholder="Search">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget">
+                                <h3 class="widget-title">Category</h3>
+                                <ul class="category-list">
+                                    <li><a href="#">For Beginners</a></li>
+                                    <li><a href="#">For Professionals</a></li>
+                                    <li><a href="#">For Juniors</a></li>
+                                    <li><a href="#">For Adults and Kids</a></li>
+                                    <li><a href="#">For Advance</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="sidebar-widget">
+                                <h3 class="widget-title">Recent Post</h3>
+                                <div class="sidebar-post">
+                                    <img src="assets/img/blog/sidebar-post-1.jpg" alt="post">
+                                    <div class="post-content">
+                                        <h3 class="title"><a href="#">
+                                                Reliable Travel Information For Explorers
+                                            </a>
+                                        </h3>
+                                        <ul class="post-meta">
+                                            <li>Mar 20, 2026</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sidebar-post">
+                                    <img src="assets/img/blog/sidebar-post-2.jpg" alt="post">
+                                    <div class="post-content">
+                                        <h3 class="title"><a href="#">
+                                                Inspiring Journeys For Discerning Travelers
+                                            </a>
+                                        </h3>
+                                        <ul class="post-meta">
+                                            <li>Jan 20, 2026</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sidebar-post">
+                                    <img src="assets/img/blog/sidebar-post-3.jpg" alt="post">
+                                    <div class="post-content">
+                                        <h3 class="title"><a href="#">
+                                                Exclusive Adventures Around The World
+                                            </a>
+                                        </h3>
+                                        <ul class="post-meta">
+                                            <li>May 20, 2026</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sidebar-post">
+                                    <img src="assets/img/blog/sidebar-post-4.jpg" alt="post">
+                                    <div class="post-content">
+                                        <h3 class="title"><a href="#">
+                                                Discover Premium Travel Inspirations
+                                            </a>
+                                        </h3>
+                                        <ul class="post-meta">
+                                            <li>May 20, 2026</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget">
+                                <h3 class="widget-title">Popular tags</h3>
+                                <ul class="tags">
+                                    <li><a href="#">Travels</a></li>
+                                    <li><a href="#">Adventure</a></li>
+                                    <li><a href="#">Explore</a></li>
+                                    <li><a href="#">Destination</a></li>
+                                    <li><a href="#">Vacation</a></li>
+                                    <li><a href="#">Tour</a></li>
+                                    <li><a href="#">Tourism</a></li>
+                                    <li><a href="#">Holiday</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ blog-details-section -->
+
+        <section class="blog-section pb-130 pt-130 bg-grey">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2 class="section-title tz-itm-title">
+                        Read Related
+                        <span>Post</span>
+                    </h2>
+                </div>
+                <div class="row gutter-gap-33">
+                    <div class="col-xl-4">
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="assets/img/blog/post-1.jpg" alt="post">
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta">
+                                    <li>Jan 20, 2026</li>
+                                    <li>|</li>
+                                    <li>5 MIN</li>
+                                </ul>
+                                <h3 class="title"><a href="blog-details.html">
+                                        Discover Extraordinary Destinations And Experiences
+                                    </a>
+                                </h3>
+                                <a href="blog-details.html" class="read-more-btn">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="assets/img/blog/post-2.jpg" alt="post">
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta">
+                                    <li>Jun, 29, 2026</li>
+                                    <li>|</li>
+                                    <li>5 MIN</li>
+                                </ul>
+                                <h3 class="title"><a href="blog-details.html">
+                                        Learn More About Destinations, Culture, And Adventures
+                                    </a>
+                                </h3>
+                                <a href="blog-details.html" class="read-more-btn">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="assets/img/blog/post-3.jpg" alt="post">
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta">
+                                    <li>May 28, 2026</li>
+                                    <li>|</li>
+                                    <li>5 MIN</li>
+                                </ul>
+                                <h3 class="title"><a href="blog-details.html">
+                                        Discover Extraordinary Destinations And Experiences
+                                    </a>
+                                </h3>
+                                <a href="blog-details.html" class="read-more-btn">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ blog-section -->
+
+        <div class="blod-details-section pt-130 pb-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-8">
+                        <div class="blog-comment-content">
+                            <div class="comments-area">
+                                <div class="section-heading">
+                                    <h2 class="section-title">Comments (2)</h2>
+                                </div>
+                                <div class="comment-item">
+                                    <div class="comment-thumb">
+                                        <img src="assets/img/blog/comment-thumb-1.png" alt="author">
+                                    </div>
+                                    <div class="comment-info">
+                                        <div class="comments-meta">
+                                            <h3 class="author">Henry Thompson</h3>
+                                            <span>Dec 20, 2026</span>
+                                        </div>
+                                        <p class="desc">
+                                            Our team blends creative design with strategic thinking to ensure
+                                            your brand
+                                            not only looks compelling but also communicates value clearly and
+                                            consistently.
+                                        </p>
+                                        <a href="#" class="reply">Reply <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="comment-item item-2">
+                                    <div class="comment-thumb">
+                                        <img src="assets/img/blog/comment-thumb-2.png" alt="author">
+                                    </div>
+                                    <div class="comment-info">
+                                        <div class="comments-meta">
+                                            <h3 class="author">Cooper, Kristin</h3>
+                                            <span>10 Feb, 2026</span>
+                                        </div>
+                                        <p class="desc">
+                                            We believe every brand has a unique story. Through in-depth
+                                            research, market
+                                            positioning, and audience analysis,
+                                        </p>
+                                        <a href="#" class="reply">Reply <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ./ comments-area -->
+                            <div class="form-wrap pt-70">
+                                <div class="contact-content">
+                                    <div class="blog-contact-form">
+                                        <h3 class="contact-title">
+                                            Leave a Reply
+                                        </h3>
+                                        <p class="desc mb-40">
+                                            Your Email Will not be Published, Required fields are marked
+                                        </p>
+                                        <div class="request-form">
+                                            <form action="https://tripzo.geekslabthemes.com/mail.php" method="post" id="ajax_contact"
+                                                class="form-horizontal">
+                                                <div class="form-group row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-item">
+                                                            <input type="text" id="fullname" name="fullname"
+                                                                class="form-control" placeholder="Full Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-item">
+                                                            <input type="text" id="email" name="email"
+                                                                class="form-control" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-item message-item">
+                                                            <textarea id="message" name="message" cols="30" rows="7"
+                                                                class="form-control address"
+                                                                placeholder="Write comment"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="flexCheckDefault">
+                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                    Save my name, Email address in this browser for next
+                                                                    time comment
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="submit-btn mt-10">Post Comment</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ./ form-wrap -->
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <section class="footer-section bg-heading-color pt-120 fade-wrapper">
+            <div class="bg-img" data-background="assets/img/bg-img/footer-bg.png"></div>
+            <div class="footer-wrapper overflow-hidden">
+                <div class="container">
+                    <div class="row gy-xl-0 gy-5">
+                        <div class="col-xl-6 col-lg-5 col-md-8 fade-top">
+                            <div class="footer-widget">
+                                <div class="section-heading white-content mb-0">
+                                    <h2 class="section-title">
+                                        Explore The World <br>
+                                        <span>With Us</span>
+                                    </h2>
+                                </div>
+                                <div class="footer-btn mt-32">
+                                    <a href="contact.html" class="cp-primary-btn white-btn-hover">
+                                        <span class="inner-btn">let’s adventure</span>
+                                        <span class="icon"><i class="fa-regular fa-arrow-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 fade-top">
+                            <div class="footer-widget footer-col-1">
+                                <div class="widget-header">
+                                    <h3 class="widget-title">Quick links</h3>
+                                </div>
+                                <ul class="footer-list">
+                                    <li><a href="service-details.html">About Us</a></li>
+                                    <li><a href="service-details.html">Portfolio</a></li>
+                                    <li><a href="service-details.html">Programs</a></li>
+                                    <li><a href="service-details.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 fade-top">
+                            <div class="footer-widget ">
+                                <div class="widget-header">
+                                    <h3 class="widget-title">Address</h3>
+                                </div>
+                                <ul class="footer-list">
+                                    <li><a href="service-details.html">2972 Westheimer Rd. Santa Ana, Illinois 85486
+                                        </a></li>
+                                    <li><a href="service-details.html">alma.lawson@example.com</a></li>
+                                    <li><a href="service-details.html">+122 (219) 555-0114</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gy-5 pt-80 align-items-center">
+                        <div class="col-xl-5 col-lg-5">
+                            <div class="newletter-wrap">
+                                <h3 class="title">
+                                    Subscribe For Your Next <br> Great Escape
+                                </h3>
+                                <div class="newsletter-form">
+                                    <input type="email" placeholder="Email address" class="form-control">
+                                    <button class="subcribe-btn">Subscribe now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7">
+                            <div class="footer-image-wrap">
+                                <img class="image-1" src="assets/img/images/footer-img-1.jpg" alt="">
+                                <img class="image-2" src="assets/img/images/footer-img-2.jpg" alt="">
+                                <img class="image-1" src="assets/img/images/footer-img-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="copyright-content">
+                        <p class="copyright-txt">
+                            © 2026 . <a href="https://themeforest.net/user/geekslab_themes">JB</a> All Rights
+                            Reserved.
+                        </p>
+                        <p class="desc">Privacy Policy Terms and Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ footer-section -->
+
+    </div>
+
+    <div id="scroll-percentage"><span id="scroll-percentage-value"></span></div>
+    <!--scrollup-->
+
+
+
+
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquary-3.7.1.min.js"></script>
+    <script src="assets/js/vendor/jquary-ui.min.js"></script>
+    <script src="assets/js/vendor/bootstrap-bundle.js"></script>
+    <script src="assets/js/vendor/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="assets/js/vendor/venobox.min.js"></script>
+    <script src="assets/js/vendor/dataTables.min.js"></script>
+    <script src="assets/js/vendor/odometer.min.js"></script>
+    <script src="assets/js/vendor/meanmenu.js"></script>
+    <script src="assets/js/vendor/jquery.isotope.js"></script>
+    <script src="assets/js/vendor/swiper.min.js"></script>
+    <script src="assets/js/vendor/split-type.min.js"></script>
+    <script src="assets/js/vendor/split-text.js"></script>
+    <script src="assets/js/vendor/gsap.min.js"></script>
+    <script src="assets/js/vendor/scroll-trigger.min.js"></script>
+    <script src="assets/js/vendor/smooth-scroll.js"></script>
+    <script src="assets/js/vendor/MorphSVGPlugin3.min.js"></script>
+    <script src="assets/js/vendor/jquery.carouselTicker.js"></script>
+    <script src="assets/js/vendor/nice-select.js"></script>
+    <script src="assets/js/vendor/drift.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gsap.js"></script>
+
+
+</body>
+
+
+</html>

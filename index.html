@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Title -->
+    <title> Travel & Tour Booking </title>
+
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/venobox.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/dataTables.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/carouselTicker.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+
+    <div class="preloader overflow-hidden">
+        <div class="site-name"><span>JB</span></div>
+        <div class="preloader-gutters">
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+            <div class="bar">
+                <div class="inner-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-drag">
+            <span>DRAG</span>
+        </div>
+    </div>
+
+    <!-- header-area-start -->
+    <header class="header  sticky-active">
+        <div class="primary-header">
+            <div class="container-fluid header-container">
+                <div class="primary-header-inner">
+                    <div class="header-left-wrap">
+                        <div class="header-logo d-lg-block">
+                            <a href="index.html">
+                                <img src="assets/img/logo/logo-1.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="header-menu-wrap">
+                            <div class="mobile-menu-items">
+                                <ul>
+                                    <li >
+                                        <a href="index.html">Home</a>
+                                        
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Pages</a>
+                                        <ul>
+                                            <li><a href="about.html">About us</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="destination-2.html">Destination</a>
+                                        
+                                    </li>
+                                    <li >
+                                        <a href="package-3.html">Package</a>
+                                        
+                                    </li>
+
+                                    <li>
+                                        <a href="blog-details.html">Blog</a>
+                                        
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.header-menu-wrap -->
+                    <div class="header-right-wrap">
+                        <button class="dl-search-icon search-icon">
+                            <i class="fa-regular fa-magnifying-glass"></i>
+                        </button>
+                        <a href="cart.html" class="shop-icon">
+                            <i class="fa-regular fa-cart-shopping"></i>
+                        </a>
+                        <div class="header-btn-wrap ms-3">
+                            <a href="contact.html" class="cp-primary-btn small-btn white-btn">
+                                <span class="inner-btn">Contact Us</span>
+                                <span class="icon"><i class="fa-regular fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div class="header-right-item d-lg-none d-md-block">
+                            <a href="javascript:void(0)" class="mobile-side-menu-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <!-- /.header-right -->
+                    </div>
+                </div>
+                <!-- /.primary-header-inner -->
+            </div>
+        </div>
+    </header>
+    <!-- /.Main Header -->
+
+    <div id="popup-search-box">
+        <div class="box-inner-wrap d-flex align-items-center">
+            <form id="form" action="#" method="get" role="search">
+                <input id="popup-search" type="text" name="s" placeholder="Type keywords here...">
+            </form>
+            <div class="search-close"><i class="fa-sharp fa-regular fa-xmark"></i></div>
+        </div>
+    </div>
+    <!-- /#popup-search-box -->
+
+    <div id="sidebar-area" class="sidebar-area">
+        <button class="sidebar-trigger close">
+            <svg class="sidebar-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" width="16px" height="12.7px" viewBox="0 0 16 12.7"
+                style="enable-background: new 0 0 16 12.7" xml:space="preserve">
+                <g>
+                    <rect x="0" y="5.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.1569 7.5208)" width="16"
+                        height="2"></rect>
+                    <rect x="0" y="5.4" transform="matrix(0.7071 0.7071 -0.7071 0.7071 6.8431 -3.7929)" width="16"
+                        height="2"></rect>
+                </g>
+            </svg>
+        </button>
+        <div class="side-menu-content">
+            <div class="side-menu-logo">
+                <a class="dark-img" href="index.html"><img src="assets/img/logo/logo-2.png" alt="logo"></a>
+            </div>
+            <div class="side-menu-wrap"></div>
+            <div class="side-menu-about">
+                <div class="side-menu-header">
+                    <h3>About Us</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                <a href="about.html" class="cp-primary-btn">Contact Us <span class="icon"><i
+                            class="fa-regular fa-arrow-right"></i></span></a>
+            </div>
+            <div class="side-menu-contact">
+                <div class="side-menu-header">
+                    <h3>Contact Us</h3>
+                </div>
+                <ul class="side-menu-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Valentin, Street Road 24, New York, </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+000123456789">+000 123 (456) 789</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope-open-text"></i>
+                        <a href="mailto:tripzo@gmail.com">tripzo@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="side-menu-social">
+                <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="g-plus"><a href="#"><i class="fab fa-fab fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--/.sidebar-area-->
+
+    <div class="mobile-side-menu">
+        <div class="side-menu-content">
+            <div class="side-menu-head">
+                <a href="index.html"><img src="assets/img/logo/logo-2.png" alt="logo"></a>
+                <button class="mobile-side-menu-close"><i class="fa-regular fa-xmark"></i></button>
+            </div>
+            <div class="side-menu-wrap"></div>
+            <div class="side-menu-contact">
+                <div class="side-menu-header">
+                    <h3>Contact Us</h3>
+                </div>
+                <ul class="side-menu-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Valentin, Street Road 24, New York, </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+000123456789">+000 123 (456) 789</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope-open-text"></i>
+                        <a href="mailto:tripzo@gmail.com">tripzo@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="side-menu-social">
+                <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="g-plus"><a href="#"><i class="fab fa-fab fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.mobile-side-menu -->
+    <div class="mobile-side-menu-overlay"></div>
+
+    <div class="page-wrapper">
+
+        <section class="hero-section overflow-hidden ">
+            <div class="hero-bg" data-background="assets/img/bg-img/hero-bg-1.jpg"></div>
+            <div class="hero-bg-2" data-background="assets/img/bg-img/hero-bg-2.png"></div>
+            <div class="container-fluid">
+                <h1 class="explore-title">
+                    Explore
+                </h1>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero-content fade-wrapper">
+                            <div class="title-wrap fade-top">
+                                <div class="author-list-wrap">
+                                    <ul class="author-list">
+                                        <li><img src="assets/img/images/author-img-1.png" alt="author">
+                                        </li>
+                                        <li><img src="assets/img/images/author-img-2.png" alt="author">
+                                        </li>
+                                        <li class="icon"><i class="fa-regular fa-plus"></i></li>
+                                    </ul>
+                                    <p class="author-title">
+                                        <span>1200+</span> <br>
+                                        Patient Reviews
+                                    </p>
+                                </div>
+                                <h2 class="title">
+                                    Find Your <br>Destination
+                                </h2>
+                            </div>
+                            <div class="hero-inner-form fade-top">
+                                <form action="https://tripzo.geekslabthemes.com/mail.php" method="post" id="ajax_contact" class="form-horizontal">
+                                    <div class="form-group">
+                                        <div class="form-item">
+                                            <img src="assets/img/icon/world-icon.png" alt="">
+                                            <div class="input-txt">
+                                                <label for="address">Find Your Place</label>
+                                                <input type="text" id="address" name="address" class="form-control"
+                                                    placeholder="Maldives">
+                                            </div>
+                                        </div>
+                                        <div class="form-item">
+                                            <img src="assets/img/icon/calander-icon.png" alt="">
+                                            <div class="input-txt">
+                                                <label for="date">Date</label>
+                                                <input type="date" id="date" name="date" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-item">
+                                            <img src="assets/img/icon/people-icon.png" alt="">
+                                            <div class="input-txt">
+                                                <label for="guest">Guest</label>
+                                                <input type="number" id="guest" name="guest" class="form-control"
+                                                    placeholder="00, Guests">
+                                            </div>
+                                        </div>
+                                        <div class="booking-btn">
+                                            <button type="submit" class="submit-btn text-center">Book NOw</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ hero-section -->
+
+        <section class="about-section bg-grey pt-130 pb-130">
+            <div class="bg-img" data-background="assets/img/bg-img/about-bg.png"></div>
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2 class="sub-heading">
+                        About Us
+                    </h2>
+                    <h2 class="section-title tz-itm-title">
+                        Exploring The World Through Personalized <br>
+                        <span>Travel Adventures </span>
+                    </h2>
+                </div>
+                <div class="about-image-wrap">
+                    <div class="image-1">
+                        <img src="assets/img/about/about-img-1.jpg" alt="">
+                    </div>
+                    <div class="image-2">
+                        <img src="assets/img/about/about-img-2.jpg" alt="">
+                    </div>
+                    <div class="image-3">
+                        <img src="assets/img/about/about-img-3.jpg" alt="">
+                    </div>
+                    <div class="image-2">
+                        <img src="assets/img/about/about-img-4.jpg" alt="">
+                    </div>
+                    <div class="image-1">
+                        <img src="assets/img/about/about-img-5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about-content mt-70 text-center">
+                    <p class="desc">
+                        We create personalized travel experiences designed around your dreams <br> and preferences. From
+                        breathtaking destinations
+                    </p>
+                    <div class="about-btn mt-40">
+                        <a href="about.html" class="cp-primary-btn">
+                            <span class="inner-btn">More About Us</span>
+                            <span class="icon"><i class="fa-regular fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ about-section -->
+
+        <section class="destination-section pt-130 pb-130">
+            <div class="container-fluid">
+                <div class="desti-wrapper">
+                    <div class="content-left">
+                        <div class="section-heading mb-0">
+                            <h2 class="sub-heading">
+                                Popular Destinations
+                            </h2>
+                            <h2 class="section-title tz-itm-title">
+                                Most popular <br>
+                                <span>Destination</span>
+                            </h2>
+                        </div>
+                        <div class="swiper-arrow">
+                            <div class="swiper-nav swiper-prev">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                            <div class="swiper-nav swiper-next">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desti-items-wrapper">
+                        <div class="swiper desti-carousel">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="destination-details.html" class="desti-item">
+                                        <div class="image">
+                                            <img src="assets/img/destination/desti-img-1.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="title-wrap">
+                                                <h3 class="title">
+                                                    Thailand
+                                                </h3>
+                                                <span>(05) Trip</span>
+                                            </div>
+                                            <div class="arrow-icon">
+                                                <i class="fa-regular fa-arrow-right"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="destination-details.html" class="desti-item">
+                                        <div class="image">
+                                            <img src="assets/img/destination/desti-img-2.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="title-wrap">
+                                                <h3 class="title">
+                                                    Maldives
+                                                </h3>
+                                                <span>(05) Trip</span>
+                                            </div>
+                                            <div class="arrow-icon">
+                                                <i class="fa-regular fa-arrow-right"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="destination-details.html" class="desti-item">
+                                        <div class="image">
+                                            <img src="assets/img/destination/desti-img-3.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="title-wrap">
+                                                <h3 class="title">
+                                                    Malasia
+                                                </h3>
+                                                <span>(05) Trip</span>
+                                            </div>
+                                            <div class="arrow-icon">
+                                                <i class="fa-regular fa-arrow-right"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="destination-details.html" class="desti-item">
+                                        <div class="image">
+                                            <img src="assets/img/destination/desti-img-4.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="title-wrap">
+                                                <h3 class="title">
+                                                    Thailand
+                                                </h3>
+                                                <span>(05) Trip</span>
+                                            </div>
+                                            <div class="arrow-icon">
+                                                <i class="fa-regular fa-arrow-right"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ destination-section -->
+
+        <section class="why-choose-section pt-130 pb-130">
+            <div class="container">
+                <div class="row gy-lg-0 gy-4">
+                    <div class="col-lg-7">
+                        <div class="section-heading mb-0">
+                            <h2 class="sub-heading">
+                                Why Choose Us
+                            </h2>
+                            <h2 class="section-title tz-itm-title">
+                                Creating Exceptional<br> Adventures Through Expert <br>
+                                <span>Travel Planning</span>
+                            </h2>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/images/choose-img-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="choose-items-wrap">
+                            <div class="choose-item">
+                                <div class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M35.625 12.1875V4.6875C35.625 4.16931 35.2052 3.75 34.6875 3.75H17.8125C17.2948 3.75 16.875 4.16931 16.875 4.6875V12.1875C16.875 12.7057 17.2948 13.125 17.8125 13.125H34.6875C35.2052 13.125 35.625 12.7057 35.625 12.1875ZM33.75 11.25H18.75V5.625H33.75V11.25Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M55.833 20.7825L55.4869 20.5518C54.0688 19.606 52.9907 18.1952 52.4519 16.5784C52.3242 16.1957 51.9662 15.9375 51.5625 15.9375C51.1588 15.9375 50.8008 16.1957 50.6731 16.5784C50.1343 18.1952 49.0562 19.606 47.6376 20.5518L47.292 20.7825C47.0316 20.9564 46.875 21.2494 46.875 21.5625C46.875 21.8756 47.0316 22.1686 47.292 22.3425L47.6381 22.5732C49.0562 23.519 50.1343 24.9298 50.6731 26.5466C50.8008 26.9293 51.1588 27.1875 51.5625 27.1875C51.9662 27.1875 52.3242 26.9293 52.4519 26.5466C52.9907 24.9298 54.0688 23.519 55.4874 22.5732L55.833 22.3425C56.0934 22.1686 56.25 21.8756 56.25 21.5625C56.25 21.2494 56.0934 20.9564 55.833 20.7825ZM51.5625 24.0317C50.9958 23.0951 50.2702 22.2574 49.4211 21.5625C50.2702 20.8676 50.9958 20.0299 51.5625 19.0933C52.1292 20.0299 52.8548 20.8676 53.7039 21.5625C52.8548 22.2574 52.1292 23.0951 51.5625 24.0317Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M29.924 57.6004C27.1802 58.4052 24.164 58.2751 21.5332 57.2498C16.5038 55.3171 13.125 50.3943 13.125 45C13.125 37.7628 19.0128 31.875 26.25 31.875C31.4648 31.875 36.1876 34.9667 38.2819 39.7513C38.4888 40.2246 39.0431 40.4434 39.5164 40.2338C39.9907 40.0259 40.2072 39.473 39.9994 38.9987C37.6067 33.5321 32.2096 30 26.25 30C17.9791 30 11.25 36.7291 11.25 45C11.25 49.8775 13.674 54.4105 17.5293 57.1875H8.4375C6.8866 57.1875 5.625 55.9259 5.625 54.375V30C5.625 28.4491 6.8866 27.1875 8.4375 27.1875H17.8125C18.2158 27.1875 18.5738 26.9293 18.7015 26.5475L19.7246 23.4869C20.1036 22.3361 21.1739 21.5625 22.3874 21.5625H30.1126C31.3261 21.5625 32.3964 22.3361 32.7768 23.4915L33.7985 26.5475C33.9262 26.9293 34.2842 27.1875 34.6875 27.1875H44.0625C45.6134 27.1875 46.875 28.4491 46.875 30V39.375C46.875 39.8932 47.2948 40.3125 47.8125 40.3125C48.3302 40.3125 48.75 39.8932 48.75 39.375V30C48.75 27.4155 46.647 25.3125 44.0625 25.3125H35.3627L34.5561 22.901C33.9235 20.9784 32.1378 19.6875 30.1126 19.6875H30V16.875H36.5625C38.1134 16.875 39.375 15.6134 39.375 14.0625V2.8125C39.375 1.2616 38.1134 0 36.5625 0H15.9375C14.3866 0 13.125 1.2616 13.125 2.8125V14.0625C13.125 15.6134 14.3866 16.875 15.9375 16.875H22.5V19.6875H22.3874C20.3622 19.6875 18.5765 20.9784 17.9453 22.8964L17.1373 25.3125H16.875V22.5C16.875 21.9818 16.4552 21.5625 15.9375 21.5625H8.4375C7.91977 21.5625 7.5 21.9818 7.5 22.5V25.4073C5.36316 25.8429 3.75 27.7365 3.75 30V54.375C3.75 56.9595 5.85297 59.0625 8.4375 59.0625H21.0472C22.6983 59.6796 24.446 60 26.25 60C27.6787 60 29.0923 59.7986 30.4514 59.4003C30.948 59.2548 31.2328 58.7338 31.0872 58.2367C30.9416 57.7386 30.417 57.4557 29.924 57.6004ZM15 14.0625V2.8125C15 2.29523 15.4207 1.875 15.9375 1.875H36.5625C37.0793 1.875 37.5 2.29523 37.5 2.8125V14.0625C37.5 14.5798 37.0793 15 36.5625 15H15.9375C15.4207 15 15 14.5798 15 14.0625ZM24.375 16.875H28.125V19.6875H24.375V16.875ZM9.375 23.4375H15V25.3125H9.375V23.4375Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M26.25 36.5625C28.922 36.5625 31.4644 37.8525 33.0505 40.014C33.3563 40.4306 33.9432 40.5194 34.3611 40.2155C34.7786 39.9088 34.8683 39.3219 34.5621 38.9044C32.6239 36.264 29.5166 34.6875 26.25 34.6875C20.5637 34.6875 15.9375 39.3137 15.9375 45C15.9375 50.6863 20.5637 55.3125 26.25 55.3125C27.6892 55.3125 29.0785 55.0204 30.3795 54.4446C30.8528 54.2358 31.067 53.6819 30.8574 53.2086C30.6473 52.7344 30.0948 52.5183 29.6205 52.7307C28.5603 53.1995 27.4265 53.4375 26.25 53.4375C21.5977 53.4375 17.8125 49.6527 17.8125 45C17.8125 40.3473 21.5977 36.5625 26.25 36.5625Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M39.375 30C38.8573 30 38.4375 30.4193 38.4375 30.9375C38.4375 31.4557 38.8573 31.875 39.375 31.875H43.125C43.6427 31.875 44.0625 31.4557 44.0625 30.9375C44.0625 30.4193 43.6427 30 43.125 30H39.375Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M51.5625 41.25H34.6875C33.1366 41.25 31.875 42.5116 31.875 44.0625V57.1875C31.875 58.7384 33.1366 60 34.6875 60H51.5625C53.1134 60 54.375 58.7384 54.375 57.1875V44.0625C54.375 42.5116 53.1134 41.25 51.5625 41.25ZM34.6875 43.125H51.5625C52.0793 43.125 52.5 43.5452 52.5 44.0625V48.3618L50.3503 46.2122C49.9841 45.8459 49.3909 45.8459 49.0247 46.2122L44.0625 51.1743L40.0378 47.1497C39.6716 46.7834 39.0784 46.7834 38.7122 47.1497L33.75 52.1118V44.0625C33.75 43.5452 34.1707 43.125 34.6875 43.125ZM51.5625 58.125H34.6875C34.1707 58.125 33.75 57.7048 33.75 57.1875V54.7632L39.375 49.1382L43.3997 53.1628C43.7659 53.5291 44.3591 53.5291 44.7253 53.1628L49.6875 48.2007L52.5 51.0132V57.1875C52.5 57.7048 52.0793 58.125 51.5625 58.125Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M6.5625 9.375H8.4375C8.95523 9.375 9.375 8.95569 9.375 8.4375C9.375 7.91931 8.95523 7.5 8.4375 7.5H6.5625C6.04477 7.5 5.625 7.91931 5.625 8.4375C5.625 8.95569 6.04477 9.375 6.5625 9.375Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M9.64966 5.35034C9.83276 5.53345 10.0726 5.625 10.3125 5.625C10.5524 5.625 10.7922 5.53345 10.9753 5.35034C11.3416 4.98413 11.3416 4.39087 10.9753 4.02466L9.10034 2.14966C8.73413 1.78345 8.14087 1.78345 7.77466 2.14966C7.40845 2.51587 7.40845 3.10913 7.77466 3.47534L9.64966 5.35034Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M9.64966 11.5247L7.77466 13.3997C7.40845 13.7659 7.40845 14.3591 7.77466 14.7253C7.95776 14.9084 8.19763 15 8.4375 15C8.67737 15 8.91724 14.9084 9.10034 14.7253L10.9753 12.8503C11.3416 12.4841 11.3416 11.8909 10.9753 11.5247C10.6091 11.1584 10.0159 11.1584 9.64966 11.5247Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M43.125 8.4375C43.125 8.95569 43.5448 9.375 44.0625 9.375H45.9375C46.4552 9.375 46.875 8.95569 46.875 8.4375C46.875 7.91931 46.4552 7.5 45.9375 7.5H44.0625C43.5448 7.5 43.125 7.91931 43.125 8.4375Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M42.1875 5.625C42.4274 5.625 42.6672 5.53345 42.8503 5.35034L44.7253 3.47534C45.0916 3.10913 45.0916 2.51587 44.7253 2.14966C44.3591 1.78345 43.7659 1.78345 43.3997 2.14966L41.5247 4.02466C41.1584 4.39087 41.1584 4.98413 41.5247 5.35034C41.7078 5.53345 41.9476 5.625 42.1875 5.625Z"
+                                            fill="currentColor" />
+                                        <path
+                                            d="M43.3997 14.7253C43.5828 14.9084 43.8226 15 44.0625 15C44.3024 15 44.5422 14.9084 44.7253 14.7253C45.0916 14.3591 45.0916 13.7659 44.7253 13.3997L42.8503 11.5247C42.4841 11.1584 41.8909 11.1584 41.5247 11.5247C41.1584 11.8909 41.1584 12.4841 41.5247 12.8503L43.3997 14.7253Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                                <h3 class="title">
+                                    Photography
+                                </h3>
+                                <p class="desc">
+                                    Get expert guidance for a seamless and Stress-free travel experience.
+                                </p>
+                            </div>
+                            <div class="choose-item">
+                                <div class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M39.1003 9.32446C34.9832 9.32974 31.3077 11.9087 29.9031 15.7795L29.4519 17.0247L30.7205 16.6458C31.7212 16.3471 32.8056 16.6164 33.5505 17.3489L33.5681 17.3674L34.0564 17.8948L34.5457 17.3674L34.5642 17.3479C34.5684 17.3437 34.5726 17.3394 34.5769 17.3352C35.1172 16.8193 35.835 16.5293 36.5818 16.5256C37.3348 16.5244 38.0584 16.8196 38.5945 17.3479L38.613 17.3674L39.1013 17.8948L39.5906 17.3674L39.5994 17.3577C39.6068 17.35 39.6142 17.3426 39.6218 17.3352C40.162 16.8195 40.8793 16.5295 41.6257 16.5256C42.2848 16.5244 42.9209 16.7506 43.4294 17.1614L43.6394 17.3489L43.6443 17.3538L43.6628 17.3733L44.1531 17.8879L44.6355 17.3674L44.6511 17.3489L44.6521 17.3499C44.6548 17.3469 44.6577 17.343 44.6619 17.3391L44.6687 17.3323C45.4146 16.6135 46.4897 16.3503 47.4841 16.6428L48.7488 17.0149L48.2986 15.7756C46.8929 11.9067 43.2186 9.32957 39.1023 9.32446H39.1003ZM38.8376 19.3508C38.8267 18.1238 37.8284 17.135 36.6013 17.135C35.3743 17.1351 34.3769 18.1238 34.366 19.3508V19.3567C34.366 19.5273 34.227 19.6663 34.0564 19.6663C33.886 19.6661 33.7478 19.5271 33.7478 19.3567V19.3518C33.7431 18.766 33.5139 18.2037 33.1091 17.7815L33.0994 17.7708L33.0876 17.761L32.9246 17.6184C32.5282 17.3079 32.0368 17.1403 31.53 17.1438H31.5291C30.9527 17.1485 30.4002 17.3699 29.9802 17.7629L29.9519 17.7893L29.9275 17.8186C29.7759 17.9973 29.6486 18.2574 29.5593 18.467C29.4615 18.6969 29.372 18.955 29.3113 19.1819V19.1829C29.2713 19.3329 29.1261 19.4304 28.9714 19.4104H28.9724C28.8193 19.3901 28.7052 19.2603 28.7039 19.1067C28.7234 13.3776 33.3732 8.74341 39.1023 8.74341C44.8313 8.74355 49.4807 13.3777 49.4998 19.1067C49.4989 19.2607 49.3846 19.3904 49.2312 19.4104C49.077 19.4303 48.9318 19.3327 48.8923 19.1829L48.8914 19.1799C48.8298 18.9506 48.7382 18.6888 48.6384 18.4563C48.5489 18.2476 48.4178 17.9779 48.2576 17.7981L48.239 17.7766L48.2195 17.7581L48.0554 17.6165C47.6643 17.3111 47.181 17.1442 46.6814 17.1438H46.6638C46.0761 17.1366 45.5106 17.3664 45.0945 17.7825H45.0935C44.6752 18.2015 44.4452 18.7729 44.4558 19.3645V19.3655C44.457 19.4748 44.3989 19.5778 44.3025 19.634C44.2072 19.6896 44.0893 19.6896 43.9939 19.634C43.8974 19.5778 43.8394 19.4748 43.8406 19.3655V19.3528C43.8366 18.7683 43.6094 18.2058 43.2048 17.7825L43.1951 17.7727L43.1853 17.762L43.0222 17.6204C42.6277 17.3091 42.1369 17.1403 41.6306 17.1438H41.6296C41.0527 17.1485 40.4986 17.3726 40.0818 17.7717L40.0652 17.7883L40.0496 17.8049C39.6632 18.2296 39.4516 18.7838 39.4548 19.3567V26.928C39.4418 27.8742 38.6717 28.6348 37.7244 28.635C36.7777 28.635 36.0065 27.8752 35.9929 26.9299C35.9976 26.7612 36.1358 26.6264 36.3054 26.6262C36.4772 26.6262 36.6167 26.7642 36.6189 26.9348C36.6192 27.2288 36.739 27.5079 36.947 27.7112L36.948 27.7131C37.1489 27.9083 37.4168 28.0158 37.6951 28.0188V28.0198C37.7035 28.0201 37.7121 28.0186 37.7205 28.0188C37.7294 28.0187 37.7388 28.0201 37.7478 28.0198L37.7468 28.0188C38.0244 28.0171 38.2931 27.9124 38.4968 27.718L38.4958 27.717C38.7111 27.5122 38.834 27.231 38.8376 26.9368V19.3508Z"
+                                            fill="currentColor" stroke="currentColor" stroke-width="1.33333" />
+                                        <path
+                                            d="M12.9574 0.666992H30.8832C31.0538 0.667236 31.1918 0.804949 31.1918 0.975586C31.1918 1.14623 31.0538 1.28394 30.8832 1.28418H27.5043V8.14551L28.6156 7.15137C31.4286 4.63561 35.0626 3.10552 39.0795 3.10547C47.6625 3.10547 54.6534 10.0896 54.6537 18.6719C54.6537 27.2297 47.6798 34.1999 39.1429 34.2383L38.4799 34.2412V55.334C38.4798 57.5325 36.7175 59.3329 34.5414 59.333H9.3031C7.16659 59.3203 5.42506 57.645 5.30701 55.5352L5.30115 55.3301V20.2139C5.30116 18.0382 7.1007 16.2764 9.29919 16.2764H16.2767V1.28418H12.9574C12.787 1.28396 12.6488 1.14604 12.6488 0.975586C12.6488 0.805145 12.787 0.667211 12.9574 0.666992ZM13.2357 58.7158H30.5443V46.4062H13.2357V58.7158ZM13.2357 45.7891H30.5443V40.3086H13.2357V45.7891ZM13.2357 39.6914H30.5443V34.2109H13.2357V39.6914ZM39.101 3.72363C30.8494 3.73311 24.1622 10.4203 24.1527 18.6719L24.1576 19.0586C24.3625 27.136 30.9751 33.6211 39.1019 33.6211C47.3577 33.6209 54.0502 26.9277 54.0502 18.6719C54.0499 10.4163 47.3576 3.72383 39.1019 3.72363H39.101ZM16.8939 16.2764H23.7133L23.8187 15.7383C24.2871 13.3553 25.2905 11.1087 26.7523 9.16895L26.8861 8.99121V1.28418H16.8939V16.2764ZM37.8617 34.2031L37.2719 34.1348C29.5543 33.2394 23.5199 26.66 23.5199 18.6875C23.5199 18.3326 23.5474 17.9816 23.5746 17.6094L23.6263 16.8945H9.29919C7.4713 16.8946 5.91835 18.3465 5.91833 20.2139V55.3398C5.93551 57.1965 7.4366 58.6981 9.29333 58.7158H12.6176V33.9492C12.6212 33.779 12.7415 33.6371 12.9017 33.6016L12.973 33.5938H30.8676C31.0365 33.6028 31.1674 33.7447 31.1625 33.9141V58.7158H34.5414C36.4087 58.7158 37.8617 57.1613 37.8617 55.334V34.2031Z"
+                                            fill="currentColor" stroke="currentColor" stroke-width="1.33333" />
+                                    </svg>
+                                </div>
+                                <h3 class="title">
+                                    Travel Insurance
+                                </h3>
+                                <p class="desc">
+                                    Get expert guidance for a seamless and Stress-free travel experience.
+                                </p>
+                            </div>
+                            <div class="choose-item">
+                                <div class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M18.8192 1.07422C18.8192 4.48779 16.0519 7.25508 12.6383 7.25508C12.6383 16.7138 14.22 25.8312 25 28.7196C35.78 25.8312 37.3617 16.7137 37.3617 7.25508C33.9482 7.25508 31.1809 4.48779 31.1809 1.07422H18.8192Z"
+                                            stroke="currentColor" stroke-width="2" stroke-miterlimit="2.6131"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M26.7143 14.1575L24.3916 16.4801L23.2858 15.3742" stroke="currentColor"
+                                            stroke-width="2" stroke-miterlimit="2.6131" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12.8309 35.6903L6.27363 29.6203L5.72695 19.6747C5.56201 16.6752 3.83398 15.277 1.07422 15.4111V32.3643L8.78828 43.7231"
+                                            stroke="currentColor" stroke-width="2" stroke-miterlimit="2.6131"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M8.60289 31.7764C7.6652 30.9084 7.60797 29.4308 8.47555 28.4928C9.34313 27.5547 10.8201 27.4974 11.7578 28.3653L16.4296 32.2793C18.9744 34.4113 20.6055 35.8325 20.6055 40.7952V43.7229"
+                                            stroke="currentColor" stroke-width="2" stroke-miterlimit="22.9256"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M20.6055 43.7231H8.78833V48.9258H20.6055V43.7231Z"
+                                            stroke="currentColor" stroke-width="2" stroke-miterlimit="2.6131"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M37.1692 35.6904L43.7264 29.6204L44.2731 19.6748C44.438 16.6753 46.1661 15.277 48.9258 15.4111V32.3643L41.2118 43.7231"
+                                            stroke="currentColor" stroke-width="2" stroke-miterlimit="2.6131"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M41.3972 31.7764C42.3349 30.9084 42.3921 29.4308 41.5245 28.4928C40.6569 27.5547 39.18 27.4974 38.2423 28.3653L33.5705 32.2793C31.0257 34.4113 29.3945 35.8325 29.3945 40.7952V43.7229"
+                                            stroke="currentColor" stroke-width="2" stroke-miterlimit="22.9256"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M41.2117 43.7231H29.3945V48.9258H41.2117V43.7231Z"
+                                            stroke="currentColor" stroke-width="2" stroke-miterlimit="2.6131"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M22.2597 5.46875C21.2165 7.74814 19.387 9.59297 17.1187 10.6559C17.3055 13.9063 17.8701 17.374 19.4765 19.9379C20.8105 22.0671 22.7252 23.3401 25 24.1276C27.2749 23.3401 29.1896 22.0671 30.5235 19.9379C32.1299 17.3739 32.6945 13.9063 32.8813 10.6559C30.613 9.59287 28.7835 7.74805 27.7403 5.46875H22.2597Z"
+                                            stroke="currentColor" stroke-width="2" stroke-miterlimit="22.9256"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <h3 class="title">
+                                    Safety and security
+                                </h3>
+                                <p class="desc">
+                                    Get expert guidance for a seamless and Stress-free travel experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ why-choose-section -->
+
+        <section class="package-section bg-heading-color pt-130 pb-130">
+            <div class="container">
+                <div class="package-top">
+                    <div class="section-heading white-content mb-0">
+                        <h2 class="sub-heading">
+                            Popular Package
+                        </h2>
+                        <h2 class="section-title tz-itm-title">
+                            Our Exclusive
+                            <span>Tour Packages</span>
+                        </h2>
+                    </div>
+                    <div class="package-btn">
+                        <a href="package-1.html" class="cp-primary-btn white-btn-hover">
+                            <span class="inner-btn">View All Packages</span>
+                            <span class="icon"><i class="fa-regular fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row gy-xl-0 gy-4">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="package-item">
+                            <div class="fav-icon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="discount">
+                                20% off
+                            </div>
+                            <div class="image">
+                                <img src="assets/img/package/package-img-1.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <span>
+                                    <i class="fa-regular fa-location-dot"></i>
+                                    United kingdom
+                                </span>
+                                <h3 class="title">
+                                    <a href="package-details.html">
+                                        Exceptional Packages For Every Type Of Traveler
+                                    </a>
+                                </h3>
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    4 Days 5 nights -Couple
+                                </span>
+                                <div class="price-wrap">
+                                    <h4 class="price">
+                                        <span class="currency">$</span> 480
+                                        <span>/Person</span>
+                                    </h4>
+                                    <a href="contact.html" class="book-btn">
+                                        book now<i class="fa-regular fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="package-item">
+                            <div class="fav-icon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="image">
+                                <img src="assets/img/package/package-img-2.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <span>
+                                    <i class="fa-regular fa-location-dot"></i>
+                                    United state
+                                </span>
+                                <h3 class="title">
+                                    <a href="package-details.html">
+                                        Create Memories On Paradise Shores
+                                    </a>
+                                </h3>
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    4 Days 5 nights -Couple
+                                </span>
+                                <div class="price-wrap">
+                                    <h4 class="price">
+                                        <span class="currency">$</span> 480
+                                        <span>/Person</span>
+                                    </h4>
+                                    <a href="contact.html" class="book-btn">
+                                        book now<i class="fa-regular fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="package-item">
+                            <div class="fav-icon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="image">
+                                <img src="assets/img/package/package-img-3.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <span>
+                                    <i class="fa-regular fa-location-dot"></i>
+                                    thailand
+                                </span>
+                                <h3 class="title">
+                                    <a href="package-details.html">
+                                        Discover Paradise By The Sea With Us
+                                    </a>
+                                </h3>
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    4 Days 5 nights -Couple
+                                </span>
+                                <div class="price-wrap">
+                                    <h4 class="price">
+                                        <span class="currency">$</span> 480
+                                        <span>/Person</span>
+                                    </h4>
+                                    <a href="contact.html" class="book-btn">
+                                        book now<i class="fa-regular fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ package-section -->
+
+        <section class="service-section bg-grey pt-130 pb-130">
+            <div class="bg-img" data-background="assets/img/bg-img/feature-bg.png"></div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-xxl-5 col-xl-5 col-lg-5">
+                        <div class="section-heading mb-0">
+                            <h2 class="sub-heading">
+                                Our Services
+                            </h2>
+                            <h2 class="section-title tz-itm-title">
+                                Trusted Travel <br> Solutions For <br>
+                                <span>Everyone</span>
+                            </h2>
+                        </div>
+                        <div class="image-1">
+                            <img src="assets/img/service/service-img-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="offset-xxl-1 col-xxl-6 col-xl-7 col-lg-7">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="row gy-4">
+                                    <div class="col-xl-12">
+                                        <div class="service-item">
+                                            <div class="shape">
+                                                <img class="shape-1" src="assets/img/shapes/feature-shape-1.png" alt="">
+                                                <img class="shape-2" src="assets/img/shapes/feature-shape-2.png" alt="">
+                                            </div>
+                                            <div class="icon">
+                                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M34.6725 14.5534C34.4053 14.5534 34.1483 14.4442 33.9568 14.2425C33.7971 14.0745 33.6981 13.8763 33.5165 13.5166C33.1973 12.8816 32.6026 11.6971 31.3727 10.1396C30.8637 9.49448 30.6587 9.27436 30.5142 9.13165C30.4017 9.02079 30.1144 8.75198 29.701 8.44782C29.3886 8.81582 29.0307 9.1266 28.6308 9.37522C27.4429 10.1161 26.2753 10.0875 25.3361 10.0658L25.2706 10.0641C25.242 10.0641 22.3758 9.99857 19.3164 10.2103C17.1507 10.3598 16.5157 10.6235 16.052 10.879C15.6303 11.1124 14.8457 11.5459 14.4844 12.349C14.3281 12.6951 14.2828 13.0344 14.2442 13.3066C14.224 13.4578 14.2055 13.5889 14.1703 13.7198C14.0174 14.281 13.5872 14.5128 13.2361 14.5413C13.0244 14.5598 12.4952 14.5295 12.1357 13.871C12.0451 13.7047 11.9576 13.4879 11.877 13.2292C11.7292 12.7588 11.6099 12.1707 11.5494 11.6146C11.3227 9.55643 11.8686 7.8697 12.213 7.04811C12.4364 6.51552 13.1086 5.13116 14.513 3.77193C16.9457 1.42147 19.8523 0.81832 21.7761 0.418461C23.3806 0.0858063 24.5029 0.0371123 25.9142 0.00524553C27.013 -0.0199954 28.3116 0.027121 29.6254 0.571379C30.2975 0.848504 30.7881 1.17958 31.1711 1.6131C31.4635 1.94575 31.581 2.20626 31.7171 2.50694C31.7876 2.66154 31.8666 2.83791 31.9942 3.08317C32.3134 3.68969 32.5066 4.05758 32.8258 4.38855C32.9702 4.5381 33.0257 4.57008 33.2307 4.69092C33.4491 4.82028 33.7481 4.99507 34.2455 5.36801C34.857 5.82666 35.2619 6.13081 35.6988 6.65666C35.9777 6.99437 36.5607 7.69659 36.7909 8.73999C36.9388 9.4053 36.8699 9.92947 36.7556 10.7982C36.6816 11.3594 36.3019 12.3892 36.1861 12.69C35.6955 13.9786 35.4468 14.3516 34.9798 14.5028C34.8808 14.5367 34.7749 14.5534 34.6725 14.5534ZM29.4709 6.24881C29.9363 6.24881 30.3395 6.53109 30.5949 6.70925L30.6217 6.72776C31.2316 7.15107 31.665 7.54925 31.8683 7.74928C32.0883 7.96436 32.3471 8.25 32.8932 8.94055C33.6594 9.91159 34.2019 10.75 34.5917 11.4221C34.7194 11.0507 34.8184 10.7148 34.8403 10.5467C34.9444 9.74532 34.9747 9.4765 34.9042 9.15731C34.7748 8.57088 34.4354 8.16271 34.212 7.89221C33.9213 7.54104 33.6425 7.33281 33.0881 6.91601C32.6782 6.60849 32.443 6.46904 32.2531 6.35819C32.0011 6.21032 31.7642 6.07097 31.4366 5.7299C30.9258 5.20068 30.6436 4.66305 30.2857 3.98259C30.1294 3.68517 30.0303 3.46347 29.9564 3.30214C29.8439 3.05351 29.8203 3.00314 29.7229 2.89229C29.6003 2.75283 29.3953 2.56794 28.8895 2.35802C27.9101 1.95311 26.9037 1.91778 25.9611 1.93807C24.6119 1.96826 23.619 2.01201 22.1724 2.31101C20.3646 2.68573 17.8898 3.19981 15.8604 5.16208C14.681 6.30287 14.1366 7.46543 13.9988 7.79482C13.7804 8.31394 13.4629 9.26658 13.4343 10.4577C13.5973 10.2746 13.777 10.0998 13.9753 9.93694C14.4171 9.57073 14.854 9.32873 15.1161 9.18423C15.9342 8.73052 16.8634 8.43825 19.1837 8.27703C22.3371 8.05859 25.1984 8.12411 25.3177 8.12747L25.3849 8.12916C26.1695 8.14767 26.9121 8.16607 27.606 7.73266C27.9689 7.50592 28.2798 7.18336 28.5285 6.7733C28.6848 6.51458 28.9334 6.33642 29.2307 6.27258C29.313 6.25544 29.392 6.24881 29.4709 6.24881Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.2006 30.6654C23.5503 30.6654 22.8111 30.6033 22.0148 30.4268C21.3058 30.2705 19.4595 29.7464 17.6465 28.2611C16.7779 27.5488 15.1835 25.9779 14.2779 23.4578C14.031 22.7706 13.8696 22.0315 13.7772 21.5257C13.1437 21.2417 12.5625 20.8134 12.0702 20.264C11.4419 19.5617 11.0033 18.7116 10.8034 17.806C10.3968 15.9647 11.0218 14.1568 12.5187 12.8497C12.9219 12.4986 13.5335 12.5389 13.8846 12.9422C14.2357 13.3454 14.1955 13.957 13.7921 14.308C12.4934 15.4421 12.5455 16.7257 12.6933 17.3893C12.9554 18.5754 13.8474 19.5802 14.9127 19.8893C15.2807 19.9968 15.5511 20.3093 15.6015 20.6891C15.6754 21.2317 15.8484 22.112 16.0988 22.8059C16.8751 24.9665 18.2981 26.2955 18.8726 26.7676C20.3629 27.9874 21.8582 28.4142 22.4311 28.5417C24.0641 28.9012 25.4099 28.6644 25.9139 28.5451C27.2883 28.2208 28.2139 27.5824 28.6105 27.3102C28.8961 27.1136 29.6421 26.5592 30.4014 25.6603C31.4985 24.3615 32.3067 22.5957 32.7435 20.5511C32.8258 20.163 33.1383 19.8639 33.5298 19.7984C33.9565 19.7261 34.422 19.3581 34.805 18.7904C35.2216 18.1704 35.4922 17.3909 35.546 16.6533C35.6031 15.8637 35.4452 14.8489 34.3632 14.5011C33.8542 14.3381 33.5753 13.7922 33.7383 13.283C33.9013 12.774 34.4472 12.4951 34.9564 12.6581C35.8737 12.9539 36.5877 13.5402 37.0195 14.3566C37.3841 15.0438 37.542 15.8855 37.4766 16.7911C37.3993 17.8546 37.0112 18.9769 36.4114 19.869C35.8822 20.6554 35.2219 21.2232 34.5079 21.5172C33.9787 23.6593 33.0966 25.4704 31.8819 26.9085C31.0049 27.9469 30.1447 28.6037 29.7095 28.9028C29.2659 29.2069 28.0882 30.0183 26.3611 30.4266C25.8957 30.5343 25.1414 30.6654 24.2006 30.6654Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M18.4125 34.3733C18.268 34.3733 18.1219 34.3413 17.9825 34.2725C17.5037 34.0357 17.3071 33.4544 17.5456 32.9756C17.843 32.3758 18.347 31.1728 18.3824 29.8505C18.3958 29.3314 18.3286 29.0945 18.2177 28.6996C18.1875 28.5937 18.1538 28.4729 18.1185 28.3402C17.9858 27.8227 18.2982 27.2951 18.8158 27.1624C19.3332 27.0296 19.8609 27.3421 19.9936 27.8596C20.0222 27.9671 20.0507 28.0714 20.0793 28.1721C20.207 28.6224 20.3397 29.0878 20.3179 29.9009C20.2743 31.5945 19.6493 33.093 19.2814 33.834C19.1115 34.1767 18.7687 34.3733 18.4125 34.3733Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M30.1414 35.0087C29.8121 35.0087 29.4929 34.8406 29.3113 34.5399C28.673 33.4781 27.9017 31.8115 27.8513 29.9028C27.8294 29.088 27.9621 28.6227 28.0899 28.174C28.1185 28.0733 28.147 27.9708 28.1756 27.8616C28.3083 27.3441 28.8359 27.0316 29.3534 27.1643C29.871 27.297 30.1834 27.8246 30.0507 28.3421C30.0171 28.4732 29.9818 28.5941 29.9515 28.7016C29.8407 29.0947 29.7718 29.3332 29.7868 29.8525C29.8255 31.3411 30.4521 32.6818 30.9696 33.5436C31.2451 34.0023 31.0972 34.597 30.6386 34.871C30.4824 34.9635 30.311 35.0087 30.1414 35.0087Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M48.4139 58.6155H0.968107C0.435522 58.6155 0.00200852 58.1837 0.00043096 57.6512C-0.00966543 54.2775 0.144935 45.8453 1.82672 40.4219C2.2737 38.9837 2.81459 37.8094 3.52859 36.7274C4.12838 35.8202 5.85897 33.5386 8.95025 31.9677C11.7829 30.5262 14.493 30.3128 16.2671 30.3867C16.499 30.3968 16.7208 30.4893 16.8887 30.6488L24.4879 37.7841L32.5069 30.6337C32.6732 30.4841 32.8866 30.3984 33.1117 30.3883C34.8859 30.3144 37.5942 30.5294 40.4286 31.9692C43.52 33.5418 45.2504 35.8218 45.8502 36.729C46.5659 37.811 47.1069 38.9837 47.5521 40.4235C48.325 42.9117 48.8626 46.3156 49.1515 50.5359C49.3078 52.8141 49.3868 55.2737 49.3783 57.6511C49.38 58.1855 48.9466 58.6155 48.4139 58.6155ZM24.6323 56.6802H47.4445C47.4311 54.6539 47.3554 52.5942 47.2227 50.6688C46.9438 46.5963 46.433 43.3419 45.7055 40.9965C45.309 39.7213 44.8571 38.7334 44.2371 37.7958C43.7214 37.0162 42.2328 35.0556 39.5513 33.6931C37.2664 32.5304 35.0706 32.2869 33.5333 32.3104L25.116 39.8153C24.7413 40.148 24.1752 40.1412 23.8089 39.7985L15.8335 32.3086C14.2979 32.2884 12.1087 32.532 9.82874 33.6913C7.14731 35.0538 5.65883 37.0145 5.14296 37.794C4.52298 38.7315 4.07106 39.7177 3.67457 40.9929C2.9471 43.3383 2.43629 46.5927 2.15738 50.6652C2.02465 52.5907 1.94903 54.6505 1.93557 56.6766L24.6323 56.6802Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M10.1515 58.6152C9.61725 58.6152 9.18384 58.1817 9.18384 57.6475V46.4867C9.18384 45.9525 9.61735 45.519 10.1515 45.519C10.6857 45.519 11.1192 45.9525 11.1192 46.4867V57.6475C11.1194 58.1818 10.6859 58.6152 10.1515 58.6152Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M40.0102 58.6152C39.4759 58.6152 39.0425 58.1817 39.0425 57.6475V46.4867C39.0425 45.9525 39.4759 45.519 40.0102 45.519C40.5444 45.519 40.9778 45.9525 40.9778 46.4867V57.6475C40.9779 58.1818 40.5444 58.6152 40.0102 58.6152Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M43.9029 30.6892C43.3686 30.6892 42.9352 30.2558 42.9352 29.7215V2.27725C42.9352 1.74298 43.3686 1.30957 43.9029 1.30957C44.4371 1.30957 44.8705 1.74308 44.8705 2.27725V29.7215C44.8706 30.2557 44.4371 30.6892 43.9029 30.6892Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M59.0321 17.2935H43.9029C43.3686 17.2935 42.9352 16.8601 42.9352 16.3258V4.65923C42.9352 4.28966 43.1452 3.95364 43.4762 3.79062C43.8071 3.62761 44.202 3.66799 44.4943 3.89317L59.6236 15.5596C59.9512 15.8116 60.0822 16.2468 59.9479 16.6383C59.8151 17.0298 59.4454 17.2935 59.0321 17.2935ZM44.8706 15.358H56.1927L44.8706 6.62834V15.358Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M29.4777 55.1142H19.4105C18.8763 55.1142 18.4429 54.6807 18.4429 54.1465V42.3002C18.4429 41.7659 18.8763 41.3325 19.4105 41.3325H29.4777C30.012 41.3325 30.4454 41.7659 30.4454 42.3002V54.1465C30.4454 54.6824 30.0136 55.1142 29.4777 55.1142ZM20.38 53.1787H28.5116V43.2679H20.38V53.1787Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M26.2066 46.3323H22.6834C22.1491 46.3323 21.7157 45.8989 21.7157 45.3646C21.7157 44.8304 22.1491 44.397 22.6834 44.397H26.2066C26.7409 44.397 27.1743 44.8304 27.1743 45.3646C27.1743 45.8989 26.7409 46.3323 26.2066 46.3323Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M26.2066 49.1917H22.6834C22.1491 49.1917 21.7157 48.7583 21.7157 48.224C21.7157 47.6898 22.1491 47.2563 22.6834 47.2563H26.2066C26.7409 47.2563 27.1743 47.6898 27.1743 48.224C27.1743 48.7583 26.7409 49.1917 26.2066 49.1917Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M26.2066 52.0511H22.6834C22.1491 52.0511 21.7157 51.6177 21.7157 51.0834C21.7157 50.5491 22.1491 50.1157 22.6834 50.1157H26.2066C26.7409 50.1157 27.1743 50.5491 27.1743 51.0834C27.1743 51.6177 26.7409 52.0511 26.2066 52.0511Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M19.4122 43.2679C19.0829 43.2679 18.7619 43.0998 18.5806 42.7974L12.1627 32.0935C11.8871 31.6348 12.0367 31.0401 12.4953 30.7661C12.954 30.4906 13.5487 30.6401 13.8227 31.0988L20.2406 41.8026C20.5162 42.2613 20.3666 42.856 19.908 43.13C19.7533 43.2242 19.5818 43.2679 19.4122 43.2679Z"
+                                                        fill="currentColor" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M29.4777 43.2679C29.3081 43.2679 29.1366 43.2242 28.9804 43.1302C28.5217 42.8547 28.3738 42.2615 28.6477 41.8029L35.0656 31.099C35.3412 30.6404 35.9342 30.4925 36.393 30.7664C36.8516 31.0419 36.9995 31.635 36.7257 32.0937L30.3077 42.7976C30.1279 43.0998 29.807 43.2679 29.4777 43.2679Z"
+                                                        fill="currentColor" />
+                                                </svg>
+                                            </div>
+                                            <h3 class="title">
+                                                Expert guideline
+                                            </h3>
+                                            <p class="desc">
+                                                Our knowledgeable travel Specialists ensure
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="service-item">
+                                            <div class="shape">
+                                                <img class="shape-1" src="assets/img/shapes/feature-shape-1.png" alt="">
+                                                <img class="shape-2" src="assets/img/shapes/feature-shape-2.png" alt="">
+                                            </div>
+                                            <div class="icon">
+                                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M58.0273 56.7684L43.9648 28.6434C43.8054 28.3256 43.481 28.125 43.1257 28.125H33.851L33.9691 27.6141C37.7323 26.3288 40.3132 22.7616 40.3132 18.75C40.3132 13.5806 36.1076 9.375 30.9382 9.375C25.7688 9.375 21.5632 13.5806 21.5632 18.75C21.5632 22.7616 24.1441 26.3288 27.9073 27.6141L28.0254 28.125H15.0007C14.6454 28.125 14.321 28.3256 14.1616 28.6434L0.0991389 56.7684C-0.0461736 57.0591 -0.0311736 57.4041 0.140389 57.6806C0.311951 57.9562 0.612889 58.125 0.938201 58.125H57.1882C57.5135 58.125 57.8145 57.9562 57.986 57.6806C58.1566 57.4041 58.1726 57.0591 58.0273 56.7684ZM27.4629 52.2253L31.4876 56.25H28.5138L21.2885 49.0247C20.922 48.6581 20.3295 48.6581 19.9629 49.0247L12.7376 56.25H9.76383L18.476 47.5378C18.8426 47.1712 18.8426 46.5788 18.476 46.2122L11.141 38.8772L12.132 36.8944L16.212 40.9744C16.3957 41.1581 16.6357 41.25 16.8757 41.25C17.1157 41.25 17.3557 41.1581 17.5385 40.9753L22.226 36.2878C22.4023 36.1125 22.5007 35.8734 22.5007 35.625V30H24.3757V37.1119L19.0254 42.4622C18.6588 42.8288 18.6588 43.4212 19.0254 43.7878L24.6504 49.4128C24.8332 49.5956 25.0732 49.6875 25.3132 49.6875C25.5532 49.6875 25.7932 49.5956 25.976 49.4128L34.1388 41.25H48.1713L49.1088 43.125H35.6257C35.3763 43.125 35.1382 43.2234 34.9629 43.3997L27.4629 50.8997C27.0963 51.2663 27.0963 51.8587 27.4629 52.2253ZM25.8626 56.25H15.3888L20.6257 51.0131L25.8626 56.25ZM23.4382 18.75C23.4382 14.6147 26.8029 11.25 30.9382 11.25C35.0735 11.25 38.4382 14.6147 38.4382 18.75C38.4382 22.1109 36.1723 25.0809 32.9285 25.9734C32.5966 26.0653 32.3416 26.3306 32.2638 26.6663L30.9382 32.4009L29.6126 26.6663C29.5348 26.3306 29.2798 26.0644 28.9479 25.9734C25.7041 25.0809 23.4382 22.1109 23.4382 18.75ZM30.0241 36.7734C30.1235 37.1991 30.5013 37.5 30.9382 37.5C31.3751 37.5 31.7529 37.1991 31.8523 36.7734L33.4179 30H42.5463L47.2338 39.375H33.7507C33.5013 39.375 33.2632 39.4734 33.0879 39.6497L25.3132 47.4244L21.0138 43.125L25.976 38.1628C26.1523 37.9875 26.2507 37.7484 26.2507 37.5V30H28.4585L30.0241 36.7734ZM15.5801 30H20.6257V35.2369L16.8757 38.9869L13.016 35.1272L15.5801 30ZM10.2579 40.6453L16.4876 46.875L7.11258 56.25H2.45508L10.2579 40.6453ZM34.1388 56.25L29.4513 51.5625L36.0138 45H50.0463L53.7963 52.5H49.2523L45.7807 47.2922C45.6251 47.0578 45.3719 46.9069 45.0935 46.8797C44.8104 46.8506 44.5366 46.9519 44.3379 47.1497L42.5632 48.9234L41.1269 46.4091C40.7941 45.825 39.8323 45.825 39.4995 46.4091L36.0194 52.5H33.7507V54.375H54.7338L55.6713 56.25H34.1388ZM42.4479 52.5H38.1785L40.3132 48.765L42.4479 52.5ZM44.607 52.5L43.5279 50.6109L44.8554 49.2844L46.9995 52.5H44.607Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M34.6882 18.75H36.5632C36.5632 15.6478 34.0404 13.125 30.9382 13.125V15C33.0063 15 34.6882 16.6819 34.6882 18.75Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M33.1873 21.75L34.3133 23.25C35.0914 22.665 35.7064 21.8878 36.0936 21L34.3761 20.25C34.1192 20.8416 33.7076 21.36 33.1873 21.75Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M2.81317 13.125C2.50005 13.125 2.20755 13.2816 2.03317 13.5422L0.158171 16.3547C-0.0518286 16.6697 -0.0518286 17.0794 0.158171 17.3944L2.03317 20.2069C2.20755 20.4684 2.50005 20.625 2.81317 20.625H7.50067V29.0625C7.50067 29.58 7.91973 30 8.43817 30H12.1882C12.7066 30 13.1257 29.58 13.1257 29.0625V20.625H19.6882C20.0341 20.625 20.3519 20.4347 20.515 20.13C20.6782 19.8253 20.6594 19.455 20.4682 19.1681L18.94 16.875L20.4682 14.5828C20.6594 14.295 20.6782 13.9256 20.515 13.6209C20.3519 13.3162 20.0341 13.125 19.6882 13.125H13.1257V11.25H17.8132C18.1263 11.25 18.4188 11.0934 18.5932 10.8328L20.4682 8.02031C20.6782 7.70531 20.6782 7.29563 20.4682 6.98063L18.5932 4.16813C18.4188 3.90656 18.1263 3.75 17.8132 3.75H13.1257V0.9375C13.1257 0.42 12.7066 0 12.1882 0H8.43817C7.91973 0 7.50067 0.42 7.50067 0.9375V3.75H0.938171C0.592234 3.75 0.274421 3.94031 0.111296 4.245C-0.0518286 4.54969 -0.0330786 4.92 0.158171 5.20687L1.6863 7.5L0.158171 9.79219C-0.0330786 10.08 -0.0518286 10.4494 0.111296 10.7541C0.274421 11.0588 0.592234 11.25 0.938171 11.25H7.50067V13.125H2.81317ZM11.2507 28.125H9.37567V20.625H11.2507V28.125ZM17.0332 17.3953L17.9369 18.75H3.31473L2.06505 16.875L3.31473 15H17.9369L17.0332 16.3547C16.8232 16.6697 16.8232 17.0803 17.0332 17.3953ZM9.37567 1.875H11.2507V3.75H9.37567V1.875ZM3.59317 6.97969L2.68942 5.625H17.3116L18.5613 7.5L17.3116 9.375H2.68942L3.59317 8.02031C3.80317 7.70531 3.80317 7.29469 3.59317 6.97969ZM9.37567 11.25H11.2507V13.125H9.37567V11.25Z"
+                                                        fill="currentColor" />
+                                                    <path d="M3.75067 15.9375H5.62567V17.8125H3.75067V15.9375Z"
+                                                        fill="white" />
+                                                    <path d="M7.50067 15.9375H9.37567V17.8125H7.50067V15.9375Z"
+                                                        fill="white" />
+                                                    <path d="M15.0007 6.5625H16.8757V8.4375H15.0007V6.5625Z"
+                                                        fill="white" />
+                                                    <path d="M11.2507 6.5625H13.1257V8.4375H11.2507V6.5625Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </div>
+                                            <h3 class="title">
+                                                Place Information
+                                            </h3>
+                                            <p class="desc">
+                                                Our knowledgeable travel Specialists ensure
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 mt-40">
+                                <div class="row gy-4">
+                                    <div class="col-xl-12">
+                                        <div class="service-item">
+                                            <div class="shape">
+                                                <img class="shape-1" src="assets/img/shapes/feature-shape-1.png" alt="">
+                                                <img class="shape-2" src="assets/img/shapes/feature-shape-2.png" alt="">
+                                            </div>
+                                            <div class="icon">
+                                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M33.1747 51.3798H12.9001C11.416 51.3776 9.99347 50.7867 8.94455 49.7369C7.89563 48.6871 7.30601 47.264 7.30505 45.78V21.1146C7.30648 19.6309 7.89632 18.2083 8.94519 17.1589C9.99406 16.1094 11.4163 15.5188 12.9001 15.5166H33.1747C34.3677 15.5164 35.5296 15.8971 36.4911 16.6034C37.4526 17.3097 38.1635 18.3045 38.5201 19.443C38.596 19.6861 38.5722 19.9493 38.454 20.1749C38.3358 20.4004 38.1328 20.5698 37.8898 20.6457C37.6467 20.7216 37.3834 20.6978 37.1579 20.5796C36.9323 20.4614 36.763 20.2585 36.6871 20.0154C36.4556 19.2659 35.9895 18.6107 35.3574 18.1462C34.7254 17.6817 33.9608 17.4325 33.1765 17.4354H12.9001C11.925 17.4365 10.9902 17.8244 10.3008 18.5139C9.61133 19.2035 9.22361 20.1383 9.22265 21.1134V45.78C9.22297 46.7554 9.61044 47.6909 10.2999 48.3808C10.9895 49.0708 11.9246 49.4589 12.9001 49.4598H33.1747C33.7281 49.4581 34.2742 49.3322 34.7726 49.0915C35.271 48.8508 35.7091 48.5014 36.0547 48.069H33.2569C32.5377 48.0682 31.8482 47.7822 31.3396 47.2736C30.8311 46.7651 30.545 46.0756 30.5443 45.3564V27.5826C30.5443 27.4565 30.5691 27.3317 30.6173 27.2152C30.6656 27.0988 30.7363 26.9929 30.8254 26.9038C30.9146 26.8146 31.0204 26.7439 31.1369 26.6957C31.2534 26.6474 31.3782 26.6226 31.5043 26.6226C31.6303 26.6226 31.7552 26.6474 31.8716 26.6957C31.9881 26.7439 32.0939 26.8146 32.1831 26.9038C32.2722 26.9929 32.3429 27.0988 32.3912 27.2152C32.4394 27.3317 32.4643 27.4565 32.4643 27.5826V45.3564C32.4644 45.5666 32.548 45.7681 32.6966 45.9167C32.8452 46.0653 33.0467 46.1488 33.2569 46.149H37.6201C37.7696 46.149 37.917 46.184 38.0506 46.2511C38.1842 46.3181 38.3003 46.4155 38.3896 46.5353C38.4789 46.6552 38.539 46.7943 38.5651 46.9415C38.5912 47.0887 38.5826 47.2399 38.5399 47.3832C38.196 48.5244 37.4995 49.5274 36.5503 50.2482C35.5799 50.9859 34.3936 51.3836 33.1747 51.3798Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M37.812 23.4148H37.6074C37.404 23.4129 37.2035 23.3673 37.0193 23.281C36.8352 23.1948 36.6717 23.07 36.54 22.915C36.2561 22.5838 36.1117 22.1553 36.1374 21.7198H33.2574C33.0529 21.7193 32.8561 21.7981 32.7084 21.9397C32.5607 22.0812 32.4736 22.2744 32.4654 22.4788C32.4547 22.7334 32.3434 22.9734 32.1558 23.1459C31.9682 23.3184 31.7198 23.4093 31.4652 23.3986C31.2106 23.388 30.9706 23.2766 30.7982 23.089C30.6257 22.9014 30.5347 22.653 30.5454 22.3984C30.573 21.6985 30.8711 21.0366 31.3767 20.552C31.8824 20.0674 32.5564 19.7977 33.2568 19.7998H37.2354C37.3729 19.7997 37.5089 19.8292 37.634 19.8862C37.7591 19.9433 37.8706 20.0265 37.9607 20.1303C38.0509 20.2342 38.1177 20.3561 38.1567 20.488C38.1956 20.6199 38.2057 20.7587 38.1864 20.8948L38.0952 21.5398C38.3149 21.6075 38.5029 21.7518 38.6252 21.9464C38.7475 22.1411 38.7959 22.3731 38.7617 22.6004C38.7274 22.8277 38.6127 23.0351 38.4384 23.185C38.2641 23.3349 38.0419 23.4173 37.812 23.4172V23.4148Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M31.5041 28.5426H14.4227C13.7607 28.5419 13.126 28.2787 12.6579 27.8107C12.1897 27.3426 11.9263 26.708 11.9255 26.046V23.9778C11.926 23.3156 12.1892 22.6806 12.6574 22.2123C13.1256 21.744 13.7605 21.4806 14.4227 21.48H31.5053C31.7599 21.48 32.0041 21.5811 32.1842 21.7612C32.3642 21.9412 32.4653 22.1854 32.4653 22.44C32.4653 22.6946 32.3642 22.9388 32.1842 23.1188C32.0041 23.2988 31.7599 23.4 31.5053 23.4H14.4227C14.2698 23.4001 14.1232 23.4609 14.015 23.569C13.9068 23.6771 13.8459 23.8236 13.8455 23.9766V26.046C13.8459 26.1989 13.9068 26.3455 14.015 26.4536C14.1232 26.5616 14.2698 26.6224 14.4227 26.6226H31.5041C31.7587 26.6226 32.0029 26.7237 32.183 26.9038C32.363 27.0838 32.4641 27.328 32.4641 27.5826C32.4641 27.8372 32.363 28.0814 32.183 28.2614C32.0029 28.4414 31.7587 28.5426 31.5041 28.5426Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M31.5041 34.1671H12.8855C12.6309 34.1671 12.3867 34.0659 12.2067 33.8859C12.0267 33.7059 11.9255 33.4617 11.9255 33.2071C11.9255 32.9525 12.0267 32.7083 12.2067 32.5282C12.3867 32.3482 12.6309 32.2471 12.8855 32.2471H31.5041C31.7587 32.2471 32.0029 32.3482 32.183 32.5282C32.363 32.7083 32.4641 32.9525 32.4641 33.2071C32.4641 33.4617 32.363 33.7059 32.183 33.8859C32.0029 34.0659 31.7587 34.1671 31.5041 34.1671Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M31.5041 39.7916H12.8855C12.6309 39.7916 12.3867 39.6904 12.2067 39.5104C12.0267 39.3304 11.9255 39.0862 11.9255 38.8316C11.9255 38.577 12.0267 38.3328 12.2067 38.1528C12.3867 37.9727 12.6309 37.8716 12.8855 37.8716H31.5041C31.7587 37.8716 32.0029 37.9727 32.183 38.1528C32.363 38.3328 32.4641 38.577 32.4641 38.8316C32.4641 39.0862 32.363 39.3304 32.183 39.5104C32.0029 39.6904 31.7587 39.7916 31.5041 39.7916Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M31.5041 45.4156H12.8855C12.6309 45.4156 12.3867 45.3145 12.2067 45.1344C12.0267 44.9544 11.9255 44.7102 11.9255 44.4556C11.9255 44.201 12.0267 43.9568 12.2067 43.7768C12.3867 43.5967 12.6309 43.4956 12.8855 43.4956H31.5041C31.7587 43.4956 32.0029 43.5967 32.183 43.7768C32.363 43.9568 32.4641 44.201 32.4641 44.4556C32.4641 44.7102 32.363 44.9544 32.183 45.1344C32.0029 45.3145 31.7587 45.4156 31.5041 45.4156Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M15.3084 54.9602H14.8596C14.1016 54.9597 13.3748 54.6585 12.8387 54.1228C12.3026 53.587 12.001 52.8604 12 52.1024V50.4224C12 50.1678 12.1011 49.9236 12.2812 49.7436C12.4612 49.5635 12.7054 49.4624 12.96 49.4624H17.2038C17.4584 49.4624 17.7026 49.5635 17.8826 49.7436C18.0627 49.9236 18.1638 50.1678 18.1638 50.4224V52.1024C18.163 52.8597 17.862 53.5857 17.3267 54.1214C16.7915 54.6571 16.0657 54.9588 15.3084 54.9602ZM13.92 51.38V52.1C13.9198 52.2235 13.944 52.3457 13.9912 52.4599C14.0383 52.574 14.1075 52.6776 14.1948 52.765C14.2821 52.8523 14.3857 52.9216 14.4998 52.9688C14.6139 53.016 14.7361 53.0403 14.8596 53.0402H15.3084C15.557 53.0399 15.7953 52.941 15.971 52.7651C16.1467 52.5893 16.2454 52.351 16.2456 52.1024V51.3824L13.92 51.38Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M31.2168 54.9602H30.768C30.0104 54.9593 29.2841 54.6578 28.7485 54.1221C28.2128 53.5863 27.9116 52.86 27.9108 52.1024V50.4224C27.9108 50.1678 28.0119 49.9236 28.1919 49.7436C28.372 49.5635 28.6162 49.4624 28.8708 49.4624H33.1146C33.3692 49.4624 33.6134 49.5635 33.7934 49.7436C33.9734 49.9236 34.0746 50.1678 34.0746 50.4224V52.1024C34.0736 52.86 33.7722 53.5864 33.2365 54.1221C32.7007 54.6579 31.9744 54.9593 31.2168 54.9602ZM29.8308 51.38V52.1C29.8305 52.2233 29.8546 52.3454 29.9016 52.4594C29.9485 52.5734 30.0175 52.677 30.1046 52.7643C30.1916 52.8516 30.295 52.9209 30.4088 52.9683C30.5226 53.0156 30.6447 53.04 30.768 53.0402H31.2168C31.4654 53.0399 31.7037 52.941 31.8795 52.7652C32.0553 52.5894 32.1542 52.351 32.1546 52.1024V51.3824L29.8308 51.38Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M30.4979 10.5192H15.5783C14.8518 10.5192 14.1549 10.2306 13.6412 9.71683C13.1274 9.20305 12.8387 8.50623 12.8387 7.77964C12.8387 7.05305 13.1274 6.35622 13.6412 5.84245C14.1549 5.32867 14.8518 5.04004 15.5783 5.04004H30.4979C31.2245 5.04004 31.9214 5.32867 32.4351 5.84245C32.9489 6.35622 33.2375 7.05305 33.2375 7.77964C33.2375 8.50623 32.9489 9.20305 32.4351 9.71683C31.9214 10.2306 31.2245 10.5192 30.4979 10.5192ZM15.5783 6.96004C15.361 6.96004 15.1525 7.04639 14.9988 7.20009C14.8451 7.3538 14.7587 7.56227 14.7587 7.77964C14.7587 7.99701 14.8451 8.20548 14.9988 8.35918C15.1525 8.51289 15.361 8.59924 15.5783 8.59924H30.4979C30.7153 8.59924 30.9238 8.51289 31.0775 8.35918C31.2312 8.20548 31.3175 7.99701 31.3175 7.77964C31.3175 7.56227 31.2312 7.3538 31.0775 7.20009C30.9238 7.04639 30.7153 6.96004 30.4979 6.96004H15.5783Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M15.8184 17.4365C15.5638 17.4365 15.3196 17.3354 15.1396 17.1553C14.9595 16.9753 14.8584 16.7311 14.8584 16.4765V9.55912C14.8584 9.30451 14.9595 9.06033 15.1396 8.8803C15.3196 8.70026 15.5638 8.59912 15.8184 8.59912C16.073 8.59912 16.3172 8.70026 16.4972 8.8803C16.6773 9.06033 16.7784 9.30451 16.7784 9.55912V16.4765C16.7784 16.7311 16.6773 16.9753 16.4972 17.1553C16.3172 17.3354 16.073 17.4365 15.8184 17.4365Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M19.38 17.4365C19.1254 17.4365 18.8813 17.3354 18.7012 17.1553C18.5212 16.9753 18.42 16.7311 18.42 16.4765V9.55912C18.42 9.30451 18.5212 9.06033 18.7012 8.8803C18.8813 8.70026 19.1254 8.59912 19.38 8.59912C19.6347 8.59912 19.8788 8.70026 20.0589 8.8803C20.2389 9.06033 20.34 9.30451 20.34 9.55912V16.4765C20.34 16.7311 20.2389 16.9753 20.0589 17.1553C19.8788 17.3354 19.6347 17.4365 19.38 17.4365Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M26.7 17.4365C26.4454 17.4365 26.2012 17.3354 26.0212 17.1553C25.8411 16.9753 25.74 16.7311 25.74 16.4765V9.55912C25.74 9.30451 25.8411 9.06033 26.0212 8.8803C26.2012 8.70026 26.4454 8.59912 26.7 8.59912C26.9546 8.59912 27.1988 8.70026 27.3788 8.8803C27.5588 9.06033 27.66 9.30451 27.66 9.55912V16.4765C27.66 16.7311 27.5588 16.9753 27.3788 17.1553C27.1988 17.3354 26.9546 17.4365 26.7 17.4365Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M30.258 17.4365C30.0034 17.4365 29.7592 17.3354 29.5792 17.1553C29.3991 16.9753 29.298 16.7311 29.298 16.4765V9.55912C29.298 9.43305 29.3228 9.30822 29.371 9.19175C29.4193 9.07527 29.49 8.96944 29.5792 8.8803C29.6683 8.79115 29.7741 8.72044 29.8906 8.6722C30.0071 8.62395 30.1319 8.59912 30.258 8.59912C30.384 8.59912 30.5089 8.62395 30.6254 8.6722C30.7418 8.72044 30.8477 8.79115 30.9368 8.8803C31.0259 8.96944 31.0967 9.07527 31.1449 9.19175C31.1931 9.30822 31.218 9.43305 31.218 9.55912V16.4765C31.218 16.7311 31.1168 16.9753 30.9368 17.1553C30.7568 17.3354 30.5126 17.4365 30.258 17.4365Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M49.98 48.0688H33.2568C32.5376 48.068 31.8481 47.782 31.3396 47.2734C30.831 46.7649 30.545 46.0754 30.5442 45.3562V22.5154C30.5442 22.4746 30.5442 22.435 30.5442 22.3954C30.5723 21.6958 30.8707 21.0343 31.3766 20.5502C31.8826 20.0661 32.5566 19.7971 33.2568 19.7998H37.2354C37.49 19.7998 37.7342 19.901 37.9142 20.081C38.0942 20.261 38.1954 20.5052 38.1954 20.7598C38.1954 21.0144 38.0942 21.2586 37.9142 21.4386C37.7342 21.6187 37.49 21.7198 37.2354 21.7198H33.2568C33.0522 21.7193 32.8555 21.7981 32.7078 21.9397C32.5601 22.0812 32.473 22.2744 32.4648 22.4788C32.4648 22.4938 32.4648 22.5034 32.4648 22.513V45.3562C32.4649 45.5664 32.5485 45.7679 32.6971 45.9165C32.8457 46.0651 33.0472 46.1487 33.2574 46.1488H49.98C50.1901 46.1485 50.3915 46.0649 50.5401 45.9163C50.6887 45.7678 50.7723 45.5663 50.7726 45.3562V22.5154C50.7728 22.4111 50.7525 22.3078 50.7128 22.2114C50.6731 22.1149 50.6148 22.0273 50.5412 21.9534C50.4675 21.8795 50.3801 21.8208 50.2838 21.7808C50.1875 21.7407 50.0843 21.72 49.98 21.7198H46.0032C45.7486 21.7198 45.5044 21.6187 45.3244 21.4386C45.1443 21.2586 45.0432 21.0144 45.0432 20.7598C45.0432 20.5052 45.1443 20.261 45.3244 20.081C45.5044 19.901 45.7486 19.7998 46.0032 19.7998H49.98C50.6992 19.8008 51.3887 20.087 51.8972 20.5956C52.4058 21.1042 52.6918 21.7938 52.6926 22.513V45.3562C52.6918 46.0754 52.4058 46.7649 51.8972 47.2734C51.3887 47.782 50.6992 48.068 49.98 48.0688Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M45.6318 23.4152H37.6073C37.404 23.4133 37.2034 23.3677 37.0193 23.2814C36.8351 23.1952 36.6716 23.0704 36.5399 22.9154C36.3822 22.7297 36.2662 22.5122 36.2 22.2777C36.1337 22.0432 36.1187 21.7972 36.1559 21.5564L36.2999 20.5202C36.3654 20.0418 36.5403 19.585 36.8112 19.1852C37.2516 18.5444 37.902 18.1598 38.6112 18.1166C38.812 17.5158 39.1967 16.9934 39.7107 16.6231C40.2247 16.2528 40.8421 16.0535 41.4756 16.0532H41.76C42.3932 16.0546 43.0102 16.2544 43.524 16.6245C44.0379 16.9946 44.4229 17.5164 44.625 18.1166C45.2138 18.159 45.7641 18.4252 46.1628 18.8606C46.5853 19.3212 46.856 19.9006 46.938 20.5202L46.9536 20.627L47.0862 21.5606C47.1229 21.8015 47.1076 22.0475 47.0411 22.2819C46.9747 22.5164 46.8587 22.7339 46.7009 22.9196C46.5685 23.0738 46.4045 23.1979 46.2201 23.2833C46.0356 23.3688 45.835 23.4138 45.6318 23.4152ZM38.0999 21.4952H45.1379L45.0372 20.7902C45.0127 20.5638 44.9195 20.3502 44.7702 20.1782C44.7174 20.1224 44.613 20.0306 44.4942 20.0306C44.1163 20.0312 43.7486 19.9084 43.4468 19.681C43.145 19.4536 42.9256 19.134 42.822 18.7706C42.7558 18.5401 42.6164 18.3374 42.4248 18.1932C42.2332 18.049 41.9998 17.9711 41.76 17.9714H41.4731C41.3283 17.9706 41.1847 17.9986 41.0508 18.0538C40.9169 18.109 40.7953 18.1903 40.6931 18.293C40.5597 18.4263 40.4626 18.5916 40.4112 18.773C40.3073 19.1359 40.0878 19.4549 39.7861 19.6817C39.4844 19.9084 39.117 20.0305 38.7395 20.0294C38.6231 20.0294 38.4917 20.12 38.3873 20.2694C38.2849 20.424 38.2194 20.6002 38.1959 20.7842L38.0999 21.4952Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M48.5429 27.9376H41.2019C40.9473 27.9376 40.7032 27.8364 40.5231 27.6564C40.3431 27.4764 40.2419 27.2322 40.2419 26.9776C40.2419 26.723 40.3431 26.4788 40.5231 26.2988C40.7032 26.1187 40.9473 26.0176 41.2019 26.0176H48.5429C48.7976 26.0176 49.0417 26.1187 49.2218 26.2988C49.4018 26.4788 49.5029 26.723 49.5029 26.9776C49.5029 27.2322 49.4018 27.4764 49.2218 27.6564C49.0417 27.8364 48.7976 27.9376 48.5429 27.9376Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M48.5429 33.1402H41.2019C40.9473 33.1402 40.7032 33.0391 40.5231 32.859C40.3431 32.679 40.2419 32.4348 40.2419 32.1802C40.2419 31.9256 40.3431 31.6814 40.5231 31.5014C40.7032 31.3214 40.9473 31.2202 41.2019 31.2202H48.5429C48.7976 31.2202 49.0417 31.3214 49.2218 31.5014C49.4018 31.6814 49.5029 31.9256 49.5029 32.1802C49.5029 32.4348 49.4018 32.679 49.2218 32.859C49.0417 33.0391 48.7976 33.1402 48.5429 33.1402Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M48.5429 38.3438H41.2019C40.9473 38.3438 40.7032 38.2427 40.5231 38.0627C40.3431 37.8826 40.2419 37.6384 40.2419 37.3838C40.2419 37.1292 40.3431 36.885 40.5231 36.705C40.7032 36.525 40.9473 36.4238 41.2019 36.4238H48.5429C48.7976 36.4238 49.0417 36.525 49.2218 36.705C49.4018 36.885 49.5029 37.1292 49.5029 37.3838C49.5029 37.6384 49.4018 37.8826 49.2218 38.0627C49.0417 38.2427 48.7976 38.3438 48.5429 38.3438Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M48.5429 43.547H41.2019C40.9473 43.547 40.7032 43.4458 40.5231 43.2658C40.3431 43.0857 40.2419 42.8416 40.2419 42.587C40.2419 42.3323 40.3431 42.0882 40.5231 41.9081C40.7032 41.7281 40.9473 41.627 41.2019 41.627H48.5429C48.7976 41.627 49.0417 41.7281 49.2218 41.9081C49.4018 42.0882 49.5029 42.3323 49.5029 42.587C49.5029 42.8416 49.4018 43.0857 49.2218 43.2658C49.0417 43.4458 48.7976 43.547 48.5429 43.547Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M35.739 28.9164C35.6129 28.9165 35.488 28.8918 35.3714 28.8436C35.2549 28.7954 35.149 28.7247 35.0598 28.6356L34.02 27.5922C33.9287 27.5036 33.8559 27.3977 33.8059 27.2807C33.7559 27.1637 33.7296 27.0379 33.7287 26.9106C33.7277 26.7834 33.7521 26.6572 33.8003 26.5395C33.8485 26.4217 33.9197 26.3147 34.0097 26.2247C34.0996 26.1347 34.2066 26.0635 34.3243 26.0152C34.442 25.9669 34.5682 25.9425 34.6954 25.9434C34.8227 25.9443 34.9485 25.9705 35.0655 26.0205C35.1826 26.0704 35.2885 26.1431 35.3772 26.2344L35.742 26.5986L37.02 25.32C37.2009 25.1444 37.4437 25.047 37.6959 25.0489C37.948 25.0508 38.1893 25.1518 38.3676 25.3302C38.5459 25.5085 38.6468 25.7499 38.6486 26.002C38.6504 26.2542 38.5529 26.4969 38.3772 26.6778L36.42 28.6356C36.3305 28.7249 36.2243 28.7957 36.1075 28.8439C35.9906 28.8921 35.8654 28.9167 35.739 28.9164Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M35.739 34.1196C35.6129 34.1201 35.488 34.0956 35.3714 34.0476C35.2549 33.9997 35.149 33.9291 35.0598 33.84L34.02 32.7954C33.9213 32.7088 33.8414 32.6029 33.7853 32.4842C33.7291 32.3655 33.6979 32.2366 33.6936 32.1053C33.6893 31.9741 33.712 31.8434 33.7602 31.7213C33.8084 31.5991 33.8812 31.4882 33.974 31.3953C34.0668 31.3024 34.1777 31.2296 34.2997 31.1812C34.4218 31.1329 34.5525 31.1101 34.6838 31.1143C34.815 31.1185 34.944 31.1496 35.0627 31.2056C35.1815 31.2616 35.2875 31.3414 35.3742 31.44L35.739 31.8042L37.02 30.5226C37.2009 30.347 37.4437 30.2496 37.6959 30.2515C37.948 30.2534 38.1893 30.3544 38.3676 30.5328C38.5459 30.7111 38.6468 30.9525 38.6486 31.2047C38.6504 31.4568 38.5529 31.6996 38.3772 31.8804L36.42 33.84C36.3306 33.9294 36.2244 34.0001 36.1075 34.0481C35.9906 34.0961 35.8653 34.1204 35.739 34.1196Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M35.739 39.3228C35.6129 39.3228 35.4879 39.2979 35.3714 39.2497C35.2549 39.2014 35.149 39.1306 35.0598 39.0414L34.02 37.998C33.8476 37.8165 33.7529 37.5748 33.7561 37.3245C33.7593 37.0741 33.8601 36.835 34.0372 36.6579C34.2142 36.4809 34.4534 36.38 34.7037 36.3768C34.954 36.3736 35.1957 36.4683 35.3772 36.6408L35.742 37.005L37.02 35.7258C37.2009 35.5501 37.4437 35.4527 37.6959 35.4546C37.9481 35.4565 38.1894 35.5576 38.3677 35.7359C38.5459 35.9143 38.6469 36.1556 38.6487 36.4078C38.6504 36.66 38.5529 36.9027 38.3772 37.0836L36.42 39.0414C36.3306 39.1308 36.2244 39.2017 36.1076 39.25C35.9907 39.2983 35.8655 39.323 35.739 39.3228Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M35.739 44.5255C35.6129 44.5256 35.488 44.5008 35.3714 44.4526C35.2549 44.4044 35.149 44.3338 35.0598 44.2447L34.02 43.2001C33.8399 43.02 33.7388 42.7758 33.7388 42.5212C33.7388 42.2665 33.8399 42.0223 34.02 41.8423C34.2 41.6622 34.4442 41.561 34.6989 41.561C34.9535 41.561 35.1977 41.6622 35.3778 41.8423L35.742 42.2071L37.02 40.9291C37.2015 40.7566 37.4432 40.6619 37.6935 40.6651C37.9438 40.6683 38.183 40.7692 38.36 40.9462C38.537 41.1232 38.6379 41.3624 38.6411 41.6127C38.6443 41.8631 38.5496 42.1048 38.3772 42.2863L36.42 44.2447C36.3305 44.334 36.2243 44.4048 36.1075 44.453C35.9906 44.5012 35.8654 44.5258 35.739 44.5255Z"
+                                                        fill="currentColor" />
+                                                </svg>
+                                            </div>
+                                            <h3 class="title">
+                                                Travel Planning
+                                            </h3>
+                                            <p class="desc">
+                                                Our knowledgeable travel Specialists ensure
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="service-item">
+                                            <div class="shape">
+                                                <img class="shape-1" src="assets/img/shapes/feature-shape-1.png" alt="">
+                                                <img class="shape-2" src="assets/img/shapes/feature-shape-2.png" alt="">
+                                            </div>
+                                            <div class="icon">
+                                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M42.0704 37.2908C41.8461 37.0665 41.4827 37.0665 41.2584 37.2908C41.0341 37.5148 41.0341 37.8785 41.2584 38.1028L42.3435 39.188C42.5678 39.4123 42.9312 39.4123 43.1555 39.188C43.3798 38.964 43.3798 38.6004 43.1555 38.3761L42.0704 37.2908Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M39.7092 34.9299C39.4849 34.7056 39.1215 34.7056 38.8972 34.9299C38.6729 35.1542 38.6729 35.5176 38.8972 35.7419L39.9823 36.827C40.2066 37.0513 40.57 37.0513 40.7943 36.827C41.0186 36.6027 41.0186 36.2393 40.7943 36.015L39.7092 34.9299Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M48.9015 19.8275L46.2525 22.4419L42.6722 21.1026C42.5196 21.0454 42.3492 21.0557 42.2051 21.1314L40.0042 22.2807C39.5851 22.4993 39.596 23.1053 40.0238 23.3083L43.9024 25.1495L42.6867 26.3495L40.6596 25.9898C40.3949 25.9424 40.1275 26.0888 40.026 26.3417L39.3352 28.0671C39.1989 28.4073 39.4141 28.7916 39.7809 28.848L42.0694 29.2015L42.3581 31.4535C42.4095 31.8471 42.8326 32.0703 43.1858 31.8937L44.7447 31.11C44.9661 30.9987 45.0912 30.7577 45.0547 30.5123L44.7867 28.7137L46.0709 27.4466L47.8894 30.8181C48.0837 31.1796 48.6462 31.2621 48.8931 30.831L49.9715 28.9486C50.0556 28.8012 50.0707 28.6239 50.0119 28.4644L48.6931 24.8894L51.3291 22.288C52.0086 21.6171 52.0166 20.524 51.3454 19.844C50.6708 19.1602 49.5784 19.1603 48.9015 19.8275ZM50.5226 21.4704L47.623 24.3319C47.4626 24.4903 47.4094 24.7278 47.4873 24.9395L48.8415 28.6104L48.4098 29.3641L46.7181 26.2272C46.5388 25.8945 46.0856 25.8186 45.8097 26.0909L43.7731 28.1009C43.6424 28.2296 43.5813 28.413 43.6082 28.5944L43.8577 30.2704L43.3945 30.5031L43.154 28.6268C43.1214 28.3728 42.9246 28.1712 42.6717 28.1323L40.6698 27.823L40.9188 27.2021L42.7782 27.5321C42.9605 27.5646 43.1495 27.5063 43.2818 27.3756L45.2926 25.3912C45.5753 25.1121 45.4969 24.6347 45.1356 24.4637L41.5575 22.7652L42.5097 22.2679L46.1938 23.6459C46.4024 23.7244 46.6385 23.6739 46.7982 23.5169L49.708 20.645C49.9366 20.4204 50.3027 20.4221 50.5279 20.6506C50.7519 20.8777 50.7522 21.2432 50.5226 21.4704Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M4.02216 54.0975H34.7734C36.5964 54.0975 38.0797 52.6143 38.0797 50.7913V46.584L58.733 25.9309C59.4675 25.1963 59.4675 24.0014 58.733 23.2667L47.7357 12.2688C47.0016 11.5357 45.8062 11.5347 45.0711 12.269L38.0797 19.2605V9.20855C38.0797 7.38559 36.5965 5.90234 34.7734 5.90234H2.98821C1.73548 5.90234 0.716064 6.92152 0.716064 8.17426V50.7914C0.716064 52.6143 2.19919 54.0975 4.02216 54.0975ZM38.0797 20.8848L45.8831 13.0814C46.1702 12.7948 46.6367 12.7945 46.9238 13.0811L57.9211 24.0788C58.2087 24.3664 58.2084 24.8319 57.9211 25.119L38.0797 44.9601V20.8848ZM1.8645 8.17426C1.8645 7.55492 2.36864 7.05078 2.98821 7.05078H34.7736C35.9635 7.05078 36.9313 8.01863 36.9313 9.20855V50.7914C36.9313 51.9813 35.9635 52.9491 34.7736 52.9491H4.02216C2.83224 52.9491 1.86438 51.9813 1.86438 50.7914L1.8645 8.17426Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M19.3979 33.5624C25.5661 33.5624 30.5843 28.5443 30.5843 22.3761C30.5843 16.2078 25.5662 11.1895 19.3979 11.1895C13.2296 11.1895 8.21155 16.2079 8.21155 22.3761C8.21155 28.5442 13.2298 33.5624 19.3979 33.5624ZM22.0689 32.0421C23.5508 30.2099 24.547 26.8793 24.6367 22.9504H29.4067C29.1586 27.3044 26.1312 30.9177 22.0689 32.0421ZM29.4068 21.802H24.6368C24.547 17.873 23.5508 14.5422 22.0689 12.7098C26.1312 13.8341 29.1586 17.4476 29.4068 21.802ZM19.9721 12.4595C21.7037 13.1196 23.3705 16.685 23.4888 21.802H19.9721V12.4595ZM19.9721 22.9504H23.4888C23.3706 28.0674 21.7037 31.6325 19.9721 32.2926V22.9504ZM18.8237 32.2925C17.0921 31.6323 15.4254 28.0673 15.307 22.9503H18.8237V32.2925ZM18.8237 12.4595V21.802H15.3071C15.4254 16.685 17.0923 13.1196 18.8237 12.4595ZM16.7271 12.7098C15.2451 14.5422 14.2488 17.873 14.1592 21.802H9.38905C9.63725 17.4476 12.6648 13.8341 16.7271 12.7098ZM14.1592 22.9504C14.2489 26.8793 15.2451 30.2099 16.7271 32.0421C12.6647 30.9179 9.63725 27.3045 9.38917 22.9504H14.1592Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M29.784 37.7119H9.01172C8.69438 37.7119 8.4375 37.969 8.4375 38.2861V48.2363C8.4375 48.5534 8.69438 48.8105 9.01172 48.8105H29.784C30.1014 48.8105 30.3582 48.5534 30.3582 48.2363V38.2861C30.3581 37.969 30.1014 37.7119 29.784 37.7119ZM29.2098 47.6621H9.58594V38.8604H29.2098V47.6621Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M11.9999 42.2524H26.7957C27.1131 42.2524 27.37 41.9953 27.37 41.6782C27.37 41.3611 27.1131 41.104 26.7957 41.104H11.9999C11.6825 41.104 11.4257 41.3611 11.4257 41.6782C11.4257 41.9953 11.6825 42.2524 11.9999 42.2524Z"
+                                                        fill="currentColor" />
+                                                    <path
+                                                        d="M11.9999 45.418H21.0615C21.3789 45.418 21.6357 45.1609 21.6357 44.8437C21.6357 44.5266 21.3789 44.2695 21.0615 44.2695H11.9999C11.6825 44.2695 11.4257 44.5266 11.4257 44.8437C11.4257 45.1609 11.6825 45.418 11.9999 45.418Z"
+                                                        fill="currentColor" />
+                                                </svg>
+                                            </div>
+                                            <h3 class="title">
+                                                Visa Immigration
+                                            </h3>
+                                            <p class="desc">
+                                                Our knowledgeable travel Specialists ensure
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ feature-section -->
+
+        <section class="testimonial-section pt-130 pb-130">
+            <div class="container-fluid">
+                <div class="section-heading  text-center">
+                    <h2 class="sub-heading">
+                        Client Testimonial
+                    </h2>
+                    <h2 class="section-title tz-itm-title">
+                        What our travelers say
+                        <br>
+                        <span>About Us</span>
+                    </h2>
+                </div>
+                <div class="swiper testi-carousel pt-85">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <img class="testi-shape" src="assets/img/shapes/testi-shape-1.png" alt="">
+                                <p class="desc">
+                                    Get expert guidance for seamless stress-free travel experience. Let our
+                                    professionals plan your perfect trip with insider tips and personalized
+                                    recommendations.
+                                </p>
+                                <div class="content">
+                                    <div class="clint-wrap">
+                                        <div class="image">
+                                            <img src="assets/img/testi/clints-1.png" alt="">
+                                        </div>
+                                        <div class="name-wrap">
+                                            <h3 class="name">
+                                                Alexandra Reed
+                                            </h3>
+                                            <span>Founder & CEO</span>
+                                        </div>
+                                    </div>
+                                    <img src="assets/img/icon/quate-icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <img class="testi-shape" src="assets/img/shapes/testi-shape-1.png" alt="">
+                                <p class="desc">
+                                    Get expert guidance for seamless stress-free travel experience. Let our
+                                    professionals plan your perfect trip with insider tips and personalized
+                                    recommendations.
+                                </p>
+                                <div class="content">
+                                    <div class="clint-wrap">
+                                        <div class="image">
+                                            <img src="assets/img/testi/clints-2.png" alt="">
+                                        </div>
+                                        <div class="name-wrap">
+                                            <h3 class="name">
+                                                David Fincher
+                                            </h3>
+                                            <span>Founder & CEO</span>
+                                        </div>
+                                    </div>
+                                    <img src="assets/img/icon/quate-icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <img class="testi-shape" src="assets/img/shapes/testi-shape-1.png" alt="">
+                                <p class="desc">
+                                    Get expert guidance for seamless stress-free travel experience. Let our
+                                    professionals plan your perfect trip with insider tips and personalized
+                                    recommendations.
+                                </p>
+                                <div class="content">
+                                    <div class="clint-wrap">
+                                        <div class="image">
+                                            <img src="assets/img/testi/clints-3.png" alt="">
+                                        </div>
+                                        <div class="name-wrap">
+                                            <h3 class="name">
+                                                Dianne Russell
+                                            </h3>
+                                            <span>Founder & CEO</span>
+                                        </div>
+                                    </div>
+                                    <img src="assets/img/icon/quate-icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tripzo-dot-swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ testimonial-section -->
+
+        <div class="video-section fade-wrapper">
+            <div class="bg-img" data-background="assets/img/bg-img/video-bg.jpg"></div>
+            <div class="running-text">
+                <div class="carouselTicker" data-speed="fastest">
+                    <ul class="carouselTicker__list">
+                        <li> Explore the world </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- ./ video-section -->
+
+        <section class="blog-section pb-130 pt-130">
+            <div class="container">
+                <div class="blog-top">
+                    <div class="section-heading mb-0">
+                        <h2 class="sub-heading">
+                            Blog & News
+                        </h2>
+                        <h2 class="section-title tz-itm-title">
+                            Our update blog
+                            <br>
+                            <span>And news</span>
+                        </h2>
+                    </div>
+                    <div class="blog-btn">
+                        <a href="blog-grid.html" class="cp-primary-btn">
+                            <span class="inner-btn">All Blog Post</span>
+                            <span class="icon"><i class="fa-regular fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row gutter-gap-33">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="assets/img/blog/post-1.jpg" alt="post">
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta">
+                                    <li>Jan 20, 2026</li>
+                                    <li>|</li>
+                                    <li>5 MIN</li>
+                                </ul>
+                                <h3 class="title"><a href="blog-details.html">
+                                        Discover Extraordinary Destinations And Experiences
+                                    </a>
+                                </h3>
+                                <a href="blog-details.html" class="read-more-btn">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="assets/img/blog/post-2.jpg" alt="post">
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta">
+                                    <li>Jun, 29, 2026</li>
+                                    <li>|</li>
+                                    <li>5 MIN</li>
+                                </ul>
+                                <h3 class="title"><a href="blog-details.html">
+                                        Learn More About Destinations, Culture, And Adventures
+                                    </a>
+                                </h3>
+                                <a href="blog-details.html" class="read-more-btn">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="assets/img/blog/post-3.jpg" alt="post">
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta">
+                                    <li>May 28, 2026</li>
+                                    <li>|</li>
+                                    <li>5 MIN</li>
+                                </ul>
+                                <h3 class="title"><a href="blog-details.html">
+                                        Discover Extraordinary Destinations And Experiences
+                                    </a>
+                                </h3>
+                                <a href="blog-details.html" class="read-more-btn">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ blog-section -->
+
+        <section class="footer-section bg-heading-color pt-120 fade-wrapper">
+            <div class="bg-img" data-background="assets/img/bg-img/footer-bg.png"></div>
+            <div class="footer-wrapper overflow-hidden">
+                <div class="container">
+                    <div class="row gy-xl-0 gy-5">
+                        <div class="col-xl-6 col-lg-5 col-md-8 fade-top">
+                            <div class="footer-widget">
+                                <div class="section-heading white-content mb-0">
+                                    <h2 class="section-title">
+                                        Explore The World <br>
+                                        <span>With Us</span>
+                                    </h2>
+                                </div>
+                                <div class="footer-btn mt-32">
+                                    <a href="contact.html" class="cp-primary-btn white-btn-hover">
+                                        <span class="inner-btn">let’s adventure</span>
+                                        <span class="icon"><i class="fa-regular fa-arrow-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 fade-top">
+                            <div class="footer-widget footer-col-1">
+                                <div class="widget-header">
+                                    <h3 class="widget-title">Quick links</h3>
+                                </div>
+                                <ul class="footer-list">
+                                    <li><a href="service-details.html">About Us</a></li>
+                                    <li><a href="service-details.html">Portfolio</a></li>
+                                    <li><a href="service-details.html">Programs</a></li>
+                                    <li><a href="service-details.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 fade-top">
+                            <div class="footer-widget ">
+                                <div class="widget-header">
+                                    <h3 class="widget-title">Address</h3>
+                                </div>
+                                <ul class="footer-list">
+                                    <li><a href="service-details.html">2972 Westheimer Rd. Santa Ana, Illinois 85486
+                                        </a></li>
+                                    <li><a href="service-details.html">alma.lawson@example.com</a></li>
+                                    <li><a href="service-details.html">+122 (219) 555-0114</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gy-5 pt-80 align-items-center">
+                        <div class="col-xl-5 col-lg-5">
+                            <div class="newletter-wrap">
+                                <h3 class="title">
+                                    Subscribe For Your Next <br> Great Escape
+                                </h3>
+                                <div class="newsletter-form">
+                                    <input type="email" placeholder="Email address" class="form-control">
+                                    <button class="subcribe-btn">Subscribe now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7">
+                            <div class="footer-image-wrap">
+                                <img class="image-1" src="assets/img/images/footer-img-1.jpg" alt="">
+                                <img class="image-2" src="assets/img/images/footer-img-2.jpg" alt="">
+                                <img class="image-1" src="assets/img/images/footer-img-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="copyright-content">
+                        <p class="copyright-txt">
+                            © 2026 . <a href="https://themeforest.net/user/geekslab_themes">JB</a> All Rights
+                            Reserved.
+                        </p>
+                        <p class="desc">Privacy Policy Terms and Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ footer-section -->
+
+    </div>
+
+    <div id="scroll-percentage"><span id="scroll-percentage-value"></span></div>
+    <!--scrollup-->
+
+
+
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquary-3.7.1.min.js"></script>
+    <script src="assets/js/vendor/jquary-ui.min.js"></script>
+    <script src="assets/js/vendor/bootstrap-bundle.js"></script>
+    <script src="assets/js/vendor/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="assets/js/vendor/venobox.min.js"></script>
+    <script src="assets/js/vendor/dataTables.min.js"></script>
+    <script src="assets/js/vendor/odometer.min.js"></script>
+    <script src="assets/js/vendor/meanmenu.js"></script>
+    <script src="assets/js/vendor/jquery.isotope.js"></script>
+    <script src="assets/js/vendor/swiper.min.js"></script>
+    <script src="assets/js/vendor/split-type.min.js"></script>
+    <script src="assets/js/vendor/split-text.js"></script>
+    <script src="assets/js/vendor/gsap.min.js"></script>
+    <script src="assets/js/vendor/scroll-trigger.min.js"></script>
+    <script src="assets/js/vendor/smooth-scroll.js"></script>
+    <script src="assets/js/vendor/MorphSVGPlugin3.min.js"></script>
+    <script src="assets/js/vendor/jquery.carouselTicker.js"></script>
+    <script src="assets/js/vendor/nice-select.js"></script>
+    <script src="assets/js/vendor/drift.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gsap.js"></script>
+
+
+</body>
+
+
+</html>
